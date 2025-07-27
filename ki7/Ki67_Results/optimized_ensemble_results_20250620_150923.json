@@ -1,0 +1,64 @@
+{
+  "timestamp": "20250620_150923",
+  "strategy": "optimized_high_performance",
+  "test_dataset_size": 402,
+  "models_used": [
+    "EfficientNet-B2",
+    "RegNet-Y-8GF",
+    "ViT",
+    "Swin-Tiny",
+    "DenseNet-121"
+  ],
+  "excluded_models": [
+    "InceptionV3",
+    "ResNet50",
+    "ConvNeXt-Tiny"
+  ],
+  "individual_models": {
+    "EfficientNet-B2": {
+      "accuracy": 0.9253731343283582,
+      "precision": 0.8383838383838383,
+      "recall": 0.8556701030927835,
+      "f1_score": 0.8469387755102041,
+      "auc": 0.9619401723846545
+    },
+    "RegNet-Y-8GF": {
+      "accuracy": 0.8930348258706468,
+      "precision": 0.7142857142857143,
+      "recall": 0.9278350515463918,
+      "f1_score": 0.8071748878923767,
+      "auc": 0.9509886766942707
+    },
+    "ViT": {
+      "accuracy": 0.8781094527363185,
+      "precision": 0.7790697674418605,
+      "recall": 0.6907216494845361,
+      "f1_score": 0.73224043715847,
+      "auc": 0.9390907554503971
+    },
+    "Swin-Tiny": {
+      "accuracy": 0.8706467661691543,
+      "precision": 0.6890756302521008,
+      "recall": 0.845360824742268,
+      "f1_score": 0.7592592592592593,
+      "auc": 0.9372317052560419
+    },
+    "DenseNet-121": {
+      "accuracy": 0.236318407960199,
+      "precision": 0.2375,
+      "recall": 0.979381443298969,
+      "f1_score": 0.3822937625754527,
+      "auc": 0.2765928680074362
+    }
+  },
+  "adaptive_weights": {
+    "EfficientNet-B2": 0.2097910066777583,
+    "RegNet-Y-8GF": 0.20356906807666889,
+    "ViT": 0.19762062128222074,
+    "Swin-Tiny": 0.19791690407274884,
+    "DenseNet-121": 0.1911023998906033
+  },
+  "best_strategy": "adaptive_optimized",
+  "best_accuracy": 0.9203980099502488,
+  "target_achieved": false
+}

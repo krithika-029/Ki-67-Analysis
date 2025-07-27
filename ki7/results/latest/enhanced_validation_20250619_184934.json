@@ -1,0 +1,103 @@
+{
+  "timestamp": "20250619_184934",
+  "models_used": [
+    "EfficientNet-B2",
+    "ConvNeXt-Tiny",
+    "Swin-Tiny",
+    "DenseNet-121",
+    "RegNet-Y-8GF",
+    "InceptionV3",
+    "ResNet50",
+    "ViT"
+  ],
+  "enhancement_techniques": [
+    "Test-Time Augmentation",
+    "Confidence-Weighted Ensemble",
+    "Performance-Weighted Ensemble",
+    "Calibrated Thresholds",
+    "High-Confidence Filtering"
+  ],
+  "best_individual_model": "EfficientNet-B2",
+  "best_individual_accuracy": 92.03980099502488,
+  "best_ensemble_strategy": "Stacked Meta-Learning",
+  "best_ensemble_accuracy": 92.7860696517413,
+  "final_accuracy": 92.7860696517413,
+  "individual_results": {
+    "EfficientNet-B2": {
+      "accuracy": 92.03980099502488,
+      "auc": 96.26837924623965,
+      "f1_score": 83.50515463917526
+    },
+    "ConvNeXt-Tiny": {
+      "accuracy": 75.87064676616916,
+      "auc": 92.10410681088389,
+      "f1_score": 0.0
+    },
+    "Swin-Tiny": {
+      "accuracy": 86.81592039800995,
+      "auc": 93.976677370289,
+      "f1_score": 75.57603686635944
+    },
+    "DenseNet-121": {
+      "accuracy": 81.8407960199005,
+      "auc": 94.17948284603683,
+      "f1_score": 71.59533073929961
+    },
+    "RegNet-Y-8GF": {
+      "accuracy": 90.04975124378109,
+      "auc": 95.43011661314857,
+      "f1_score": 81.98198198198197
+    },
+    "InceptionV3": {
+      "accuracy": 24.129353233830848,
+      "auc": 91.13064052729422,
+      "f1_score": 38.877755511022045
+    },
+    "ResNet50": {
+      "accuracy": 83.5820895522388,
+      "auc": 92.38127429440596,
+      "f1_score": 71.55172413793103
+    },
+    "ViT": {
+      "accuracy": 88.30845771144278,
+      "auc": 94.42622950819673,
+      "f1_score": 74.31693989071039
+    }
+  },
+  "ensemble_results": {
+    "Enhanced Training Weighted": {
+      "accuracy": 90.54726368159204,
+      "auc": 96.329220888964,
+      "f1_score": 82.4074074074074
+    },
+    "Ultra Confidence Weighted": {
+      "accuracy": 91.04477611940298,
+      "auc": 96.17373669089065,
+      "f1_score": 83.01886792452831
+    },
+    "Adaptive Performance Weighted": {
+      "accuracy": 91.54228855721394,
+      "auc": 96.29541997633937,
+      "f1_score": 83.80952380952381
+    },
+    "Dynamic Threshold": {
+      "accuracy": 92.28855721393035,
+      "auc": 96.3393611627514,
+      "f1_score": 85.02415458937197,
+      "threshold": 0.52,
+      "balanced_accuracy": 91.75426736521885
+    },
+    "Stacked Meta-Learning": {
+      "accuracy": 92.7860696517413,
+      "auc": 96.38330234916343,
+      "f1_score": 85.71428571428571
+    },
+    "Consensus Ensemble": {
+      "accuracy": 91.7910447761194,
+      "auc": 96.3393611627514,
+      "f1_score": 84.21052631578947
+    }
+  },
+  "target_achieved_95": false,
+  "target_achieved_92": true
+}

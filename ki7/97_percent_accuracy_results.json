@@ -1,0 +1,1846 @@
+{
+  "validation_timestamp": "2025-06-21 11:53:14",
+  "dataset_size": 100,
+  "overall_accuracy": 33.0,
+  "agreement_analysis": {
+    "unanimous_negative": {
+      "count": 50,
+      "accuracy": 0.0,
+      "coverage": 50.0
+    },
+    "split": {
+      "count": 26,
+      "accuracy": 34.61538461538461,
+      "coverage": 26.0
+    },
+    "unanimous_positive": {
+      "count": 24,
+      "accuracy": 100.0,
+      "coverage": 24.0
+    }
+  },
+  "high_accuracy_subsets": {
+    "unanimous_agreement": {
+      "count": 74,
+      "accuracy": 32.432432432432435,
+      "coverage": 74.0
+    },
+    "high_conf_unanimous": {
+      "count": 69,
+      "accuracy": 28.985507246376812,
+      "coverage": 69.0
+    },
+    "very_high_confidence": {
+      "count": 60,
+      "accuracy": 28.333333333333332,
+      "coverage": 60.0
+    },
+    "research_criteria": {
+      "count": 68,
+      "accuracy": 29.411764705882355,
+      "coverage": 68.0
+    }
+  },
+  "detailed_results": [
+    {
+      "image_name": "0.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.005040289672251674,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 99.07874975195345,
+      "individual_probabilities": {
+        "EfficientNet-B2": 9.464933100389317e-06,
+        "RegNet-Y-8GF": 0.01573437824845314,
+        "ViT": 0.018867885693907738
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "1.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.0019862683750261566,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 99.58502974032977,
+      "individual_probabilities": {
+        "EfficientNet-B2": 3.1033391678647604e-07,
+        "RegNet-Y-8GF": 0.008263797499239445,
+        "ViT": 0.0033329164143651724
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "10.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.46922535076737404,
+      "agreement_level": "split",
+      "agreement_count": 1,
+      "total_models": 3,
+      "agreement_ratio": 0.3333333333333333,
+      "improved_confidence": 45.32814367776752,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.47137391567230225,
+        "RegNet-Y-8GF": 0.6386128664016724,
+        "ViT": 0.11541036516427994
+      },
+      "model_agreement": "1/3 models agree"
+    },
+    {
+      "image_name": "100.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.5415245890617371,
+      "agreement_level": "split",
+      "agreement_count": 2,
+      "total_models": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "improved_confidence": 48.77097984350311,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.5468624830245972,
+        "RegNet-Y-8GF": 0.619881808757782,
+        "ViT": 0.34744489192962646
+      },
+      "model_agreement": "2/3 models agree"
+    },
+    {
+      "image_name": "101.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9707110822200775,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 96.17369546954862,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9695708751678467,
+        "RegNet-Y-8GF": 0.9815526604652405,
+        "ViT": 0.9570093750953674
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "102.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9578091084957122,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 94.8974045616323,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9599388241767883,
+        "RegNet-Y-8GF": 0.9713979363441467,
+        "ViT": 0.915723443031311
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "103.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9822492897510529,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 97.42755317046385,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9824124574661255,
+        "RegNet-Y-8GF": 0.9811062812805176,
+        "ViT": 0.983393132686615
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "104.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9958386242389679,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 99.2171741555983,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9971690773963928,
+        "RegNet-Y-8GF": 0.9977115392684937,
+        "ViT": 0.9827796220779419
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "105.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9698088467121124,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 95.96314046486032,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9806120991706848,
+        "RegNet-Y-8GF": 0.967646062374115,
+        "ViT": 0.8985116481781006
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "106.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.928608477115631,
+      "agreement_level": "split",
+      "agreement_count": 2,
+      "total_models": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "improved_confidence": 75.76272963375006,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9781910181045532,
+        "RegNet-Y-8GF": 0.9723877310752869,
+        "ViT": 0.49397218227386475
+      },
+      "model_agreement": "2/3 models agree"
+    },
+    {
+      "image_name": "107.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9522123038768768,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 94.22745707149333,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.954936683177948,
+        "RegNet-Y-8GF": 0.9838506579399109,
+        "ViT": 0.8698649406433105
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "108.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9879180669784546,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 98.09575552420493,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.990233302116394,
+        "RegNet-Y-8GF": 0.9924159049987793,
+        "ViT": 0.962715744972229
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "109.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9942693769931793,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 98.97644140818997,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9956287145614624,
+        "RegNet-Y-8GF": 0.9962785840034485,
+        "ViT": 0.9807355999946594
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "11.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.2105671726167202,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 79.42640118781001,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.23489905893802643,
+        "RegNet-Y-8GF": 0.22587049007415771,
+        "ViT": 0.009637333452701569
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "110.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9669867455959319,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 95.7754745343229,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9634761214256287,
+        "RegNet-Y-8GF": 0.9912036657333374,
+        "ViT": 0.9431272745132446
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "111.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9950106620788574,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 99.0791293928768,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.999062716960907,
+        "RegNet-Y-8GF": 0.9927270412445068,
+        "ViT": 0.9712135195732117
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "112.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.7308801174163818,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 72.47718229354506,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.6987429261207581,
+        "RegNet-Y-8GF": 0.9054191708564758,
+        "ViT": 0.6067623496055603
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "113.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9869082391262054,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 97.98457113013895,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9876591563224792,
+        "RegNet-Y-8GF": 0.9887375831604004,
+        "ViT": 0.9779931306838989
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "114.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.3003525070846081,
+      "agreement_level": "split",
+      "agreement_count": 1,
+      "total_models": 3,
+      "agreement_ratio": 0.3333333333333333,
+      "improved_confidence": 55.85457097304699,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.2539461553096771,
+        "RegNet-Y-8GF": 0.575631856918335,
+        "ViT": 0.07463826984167099
+      },
+      "model_agreement": "1/3 models agree"
+    },
+    {
+      "image_name": "115.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.48186749815940855,
+      "agreement_level": "split",
+      "agreement_count": 2,
+      "total_models": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "improved_confidence": 45.73746741389862,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.5186467170715332,
+        "RegNet-Y-8GF": 0.5380492806434631,
+        "ViT": 0.112049400806427
+      },
+      "model_agreement": "2/3 models agree"
+    },
+    {
+      "image_name": "116.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.04102005939930677,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 95.0528099644699,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.04386188089847565,
+        "RegNet-Y-8GF": 0.04006287083029747,
+        "ViT": 0.023041686043143272
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "117.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.10598456412553788,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 89.82410248500715,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0639372169971466,
+        "RegNet-Y-8GF": 0.21696212887763977,
+        "ViT": 0.17836086452007294
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "118.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.012969628960127011,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 97.95132199676742,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0008007780998013914,
+        "RegNet-Y-8GF": 0.03425471857190132,
+        "ViT": 0.05558140575885773
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "119.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.09313269779086113,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 90.81081038115562,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.06304169446229935,
+        "RegNet-Y-8GF": 0.18588759005069733,
+        "ViT": 0.11825993657112122
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "12.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.4770739957690239,
+      "agreement_level": "split",
+      "agreement_count": 1,
+      "total_models": 3,
+      "agreement_ratio": 0.3333333333333333,
+      "improved_confidence": 46.90500441115604,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.4655202627182007,
+        "RegNet-Y-8GF": 0.6315117478370667,
+        "ViT": 0.24907462298870087
+      },
+      "model_agreement": "1/3 models agree"
+    },
+    {
+      "image_name": "120.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.036889135651290414,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 94.06741902415024,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.007855167612433434,
+        "RegNet-Y-8GF": 0.024635734036564827,
+        "ViT": 0.2646337151527405
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "121.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.05792212337255478,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 92.81540278269117,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.03969387710094452,
+        "RegNet-Y-8GF": 0.03663501888513565,
+        "ViT": 0.22809405624866486
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "122.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.06984048001468182,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 91.48222676614341,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.01918049529194832,
+        "RegNet-Y-8GF": 0.13799500465393066,
+        "ViT": 0.2881513237953186
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "123.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9622425496578215,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 95.14052505950306,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9878153800964355,
+        "RegNet-Y-8GF": 0.8759655356407166,
+        "ViT": 0.9557867646217346
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "124.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.6219326496124268,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 65.40405349441318,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.5708163976669312,
+        "RegNet-Y-8GF": 0.7598317861557007,
+        "ViT": 0.7039481401443481
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "125.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9523623704910278,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 92.57983495892945,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9911757707595825,
+        "RegNet-Y-8GF": 0.9519248008728027,
+        "ViT": 0.6815437078475952
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "126.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.7227147758007049,
+      "agreement_level": "split",
+      "agreement_count": 2,
+      "total_models": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "improved_confidence": 58.70527002475207,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.7228896617889404,
+        "RegNet-Y-8GF": 0.8532059192657471,
+        "ViT": 0.4605082869529724
+      },
+      "model_agreement": "2/3 models agree"
+    },
+    {
+      "image_name": "127.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.4014115631580353,
+      "agreement_level": "split",
+      "agreement_count": 1,
+      "total_models": 3,
+      "agreement_ratio": 0.3333333333333333,
+      "improved_confidence": 48.32221640111941,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.3398417830467224,
+        "RegNet-Y-8GF": 0.7168539762496948,
+        "ViT": 0.20151519775390625
+      },
+      "model_agreement": "1/3 models agree"
+    },
+    {
+      "image_name": "128.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.8736920356750488,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 88.61464460333102,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.8649740815162659,
+        "RegNet-Y-8GF": 0.9482414722442627,
+        "ViT": 0.7856188416481018
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "129.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.03163572605699301,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 95.88741699909976,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.01563410647213459,
+        "RegNet-Y-8GF": 0.07021736353635788,
+        "ViT": 0.06648378819227219
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "13.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.14894820302724837,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 85.3150901172526,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.13560809195041656,
+        "RegNet-Y-8GF": 0.20525574684143066,
+        "ViT": 0.12971389293670654
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "130.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.09217852987349033,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 90.95138658317477,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.08195926249027252,
+        "RegNet-Y-8GF": 0.14948366582393646,
+        "ViT": 0.04910312965512276
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "131.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.872579425573349,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 86.46211867632753,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9440707564353943,
+        "RegNet-Y-8GF": 0.780672013759613,
+        "ViT": 0.5559549331665039
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "132.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.2103044081479311,
+      "agreement_level": "split",
+      "agreement_count": 1,
+      "total_models": 3,
+      "agreement_ratio": 0.3333333333333333,
+      "improved_confidence": 63.94518690531342,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.12871100008487701,
+        "RegNet-Y-8GF": 0.5702827572822571,
+        "ViT": 0.06150156632065773
+      },
+      "model_agreement": "1/3 models agree"
+    },
+    {
+      "image_name": "133.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.0014122257392955363,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 99.69107318416928,
+      "individual_probabilities": {
+        "EfficientNet-B2": 1.8711822121986188e-05,
+        "RegNet-Y-8GF": 0.006456037517637014,
+        "ViT": 0.0010791996028274298
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "134.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.0054723994573578245,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 99.01775416865961,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0026940808165818453,
+        "RegNet-Y-8GF": 0.014567004516720772,
+        "ViT": 0.006731419824063778
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "135.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.007288137497380376,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 98.75518864211605,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.007572122383862734,
+        "RegNet-Y-8GF": 0.007992326281964779,
+        "ViT": 0.003891865722835064
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "136.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.03766488581895828,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 95.34476660334994,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.03932708874344826,
+        "RegNet-Y-8GF": 0.046054910868406296,
+        "ViT": 0.009249415248632431
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "137.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.013297613605391235,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 97.95720294574002,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.014745085500180721,
+        "RegNet-Y-8GF": 0.014369815587997437,
+        "ViT": 0.0010209063766524196
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "138.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.022412422858309924,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 96.67226045082641,
+      "individual_probabilities": {
+        "EfficientNet-B2": 1.87580325079241e-13,
+        "RegNet-Y-8GF": 0.10694340616464615,
+        "ViT": 0.010237416252493858
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "139.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.0027868213423062117,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 99.4450881813708,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.000245203438680619,
+        "RegNet-Y-8GF": 0.008871388621628284,
+        "ViT": 0.008409012109041214
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "14.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.12472638115286827,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 87.1719117217211,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.056700147688388824,
+        "RegNet-Y-8GF": 0.3744523227214813,
+        "ViT": 0.10145813226699829
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "140.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.6117482304573059,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 64.90028287556129,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.5662388205528259,
+        "RegNet-Y-8GF": 0.7383967041969299,
+        "ViT": 0.6770171523094177
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "141.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.7509624928236007,
+      "agreement_level": "split",
+      "agreement_count": 2,
+      "total_models": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "improved_confidence": 61.5034284603554,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.7911367416381836,
+        "RegNet-Y-8GF": 0.750943124294281,
+        "ViT": 0.4697814881801605
+      },
+      "model_agreement": "2/3 models agree"
+    },
+    {
+      "image_name": "142.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9480995833873749,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 93.72235608615354,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9854729771614075,
+        "RegNet-Y-8GF": 0.8710999488830566,
+        "ViT": 0.8404850959777832
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "143.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.7735813736915588,
+      "agreement_level": "split",
+      "agreement_count": 2,
+      "total_models": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "improved_confidence": 61.92865221711643,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.8075975775718689,
+        "RegNet-Y-8GF": 0.83937668800354,
+        "ViT": 0.403877317905426
+      },
+      "model_agreement": "2/3 models agree"
+    },
+    {
+      "image_name": "144.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.41274731457233427,
+      "agreement_level": "split",
+      "agreement_count": 2,
+      "total_models": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "improved_confidence": 51.315456235778676,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.3457256853580475,
+        "RegNet-Y-8GF": 0.5737298130989075,
+        "ViT": 0.5599337220191956
+      },
+      "model_agreement": "2/3 models agree"
+    },
+    {
+      "image_name": "145.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.08404499366879463,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 90.95604432438975,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.06482579559087753,
+        "RegNet-Y-8GF": 0.06979947537183762,
+        "ViT": 0.24707041680812836
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "146.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.4512928456068039,
+      "agreement_level": "split",
+      "agreement_count": 1,
+      "total_models": 3,
+      "agreement_ratio": 0.3333333333333333,
+      "improved_confidence": 49.95481691162942,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.4104171395301819,
+        "RegNet-Y-8GF": 0.5801783204078674,
+        "ViT": 0.4796518385410309
+      },
+      "model_agreement": "1/3 models agree"
+    },
+    {
+      "image_name": "147.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.08044046349823475,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 91.78516387961596,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.10254530608654022,
+        "RegNet-Y-8GF": 0.011201107874512672,
+        "ViT": 0.06418527662754059
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "148.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.4044352948665619,
+      "agreement_level": "split",
+      "agreement_count": 1,
+      "total_models": 3,
+      "agreement_ratio": 0.3333333333333333,
+      "improved_confidence": 48.07313247091982,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.36625105142593384,
+        "RegNet-Y-8GF": 0.6770666241645813,
+        "ViT": 0.12646234035491943
+      },
+      "model_agreement": "1/3 models agree"
+    },
+    {
+      "image_name": "149.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.031204254925251005,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 95.83914406604698,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.02861817739903927,
+        "RegNet-Y-8GF": 0.00666166003793478,
+        "ViT": 0.09839198738336563
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "15.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.7298532426357269,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 72.9729344171313,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.6629573702812195,
+        "RegNet-Y-8GF": 0.8908711075782776,
+        "ViT": 0.8760886192321777
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "150.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.09327895063906907,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 90.70030357059689,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.107038214802742,
+        "RegNet-Y-8GF": 0.013386026956140995,
+        "ViT": 0.15674994885921478
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "151.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.28007070273160933,
+      "agreement_level": "split",
+      "agreement_count": 1,
+      "total_models": 3,
+      "agreement_ratio": 0.3333333333333333,
+      "improved_confidence": 59.46794771998643,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.21634502708911896,
+        "RegNet-Y-8GF": 0.37821581959724426,
+        "ViT": 0.5298601984977722
+      },
+      "model_agreement": "1/3 models agree"
+    },
+    {
+      "image_name": "152.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.49045147001743317,
+      "agreement_level": "split",
+      "agreement_count": 2,
+      "total_models": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "improved_confidence": 44.006869101699984,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.3575633466243744,
+        "RegNet-Y-8GF": 0.7967404723167419,
+        "ViT": 0.808090329170227
+      },
+      "model_agreement": "2/3 models agree"
+    },
+    {
+      "image_name": "153.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.011051236558705569,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 98.24348613243315,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.00982722919434309,
+        "RegNet-Y-8GF": 0.018185008317232132,
+        "ViT": 0.005351744592189789
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "154.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.011561176180839539,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 98.1801103617252,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.011593137867748737,
+        "RegNet-Y-8GF": 0.013116758316755295,
+        "ViT": 0.008226280100643635
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "155.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.009494090266525746,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 98.45105554831642,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.00882918480783701,
+        "RegNet-Y-8GF": 0.012873288244009018,
+        "ViT": 0.007390032522380352
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "156.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.030668608658015725,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 96.04273934658853,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.03157873451709747,
+        "RegNet-Y-8GF": 0.03224483132362366,
+        "ViT": 0.021145282313227654
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "157.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.44465280175209043,
+      "agreement_level": "split",
+      "agreement_count": 1,
+      "total_models": 3,
+      "agreement_ratio": 0.3333333333333333,
+      "improved_confidence": 46.08235929572383,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.45252957940101624,
+        "RegNet-Y-8GF": 0.6218721866607666,
+        "ViT": 0.03507658839225769
+      },
+      "model_agreement": "1/3 models agree"
+    },
+    {
+      "image_name": "158.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.7416560232639312,
+      "agreement_level": "split",
+      "agreement_count": 2,
+      "total_models": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "improved_confidence": 58.76627890605168,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.7480838298797607,
+        "RegNet-Y-8GF": 0.8960209488868713,
+        "ViT": 0.3879315257072449
+      },
+      "model_agreement": "2/3 models agree"
+    },
+    {
+      "image_name": "159.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.6332632958889007,
+      "agreement_level": "split",
+      "agreement_count": 2,
+      "total_models": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "improved_confidence": 47.784476723512235,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.6504735946655273,
+        "RegNet-Y-8GF": 0.8028268814086914,
+        "ViT": 0.17366403341293335
+      },
+      "model_agreement": "2/3 models agree"
+    },
+    {
+      "image_name": "16.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.5416297435760498,
+      "agreement_level": "split",
+      "agreement_count": 2,
+      "total_models": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "improved_confidence": 48.483433147267284,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.45366936922073364,
+        "RegNet-Y-8GF": 0.7493357062339783,
+        "ViT": 0.741940438747406
+      },
+      "model_agreement": "2/3 models agree"
+    },
+    {
+      "image_name": "160.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9095420122146606,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 90.29544293235374,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9322308897972107,
+        "RegNet-Y-8GF": 0.9238947629928589,
+        "ViT": 0.7220143675804138
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "161.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.011293825460597873,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 98.19262469212207,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.00451849028468132,
+        "RegNet-Y-8GF": 0.03726942837238312,
+        "ViT": 0.006769965868443251
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "162.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9162827849388123,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 89.43869994444785,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9531056880950928,
+        "RegNet-Y-8GF": 0.9331439137458801,
+        "ViT": 0.6248002052307129
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "163.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9223126292228698,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 91.72606738218386,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9339853525161743,
+        "RegNet-Y-8GF": 0.9405335187911987,
+        "ViT": 0.804161787033081
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "164.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.00028300491394475105,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 99.92509663621276,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0,
+        "RegNet-Y-8GF": 0.0008261091425083578,
+        "ViT": 0.0011778308544307947
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "165.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.09916436332277953,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 90.38573387285828,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.10699500888586044,
+        "RegNet-Y-8GF": 0.12090927362442017,
+        "ViT": 0.0008600237779319286
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "166.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.02446084370894823,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 96.66065711981116,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.033990975469350815,
+        "RegNet-Y-8GF": 0.003228025743737817,
+        "ViT": 0.00021555731655098498
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "167.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.0006858635344546238,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 99.83587219705579,
+      "individual_probabilities": {
+        "EfficientNet-B2": 5.249405693082945e-16,
+        "RegNet-Y-8GF": 0.0031091326382011175,
+        "ViT": 0.0006403700681403279
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "168.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.0073001660188310785,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 98.7313255057123,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0011278473539277911,
+        "RegNet-Y-8GF": 0.032462261617183685,
+        "ViT": 0.0001822054764488712
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "169.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.018710562243359166,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 97.20689379231942,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0056234002113342285,
+        "RegNet-Y-8GF": 0.07351019233465195,
+        "ViT": 0.0007214362849481404
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "17.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.0498684111982584,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 94.03647180585506,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.02916136011481285,
+        "RegNet-Y-8GF": 0.07261743396520615,
+        "ViT": 0.14931972324848175
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "170.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.15424403473734855,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 84.53362243667308,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.1176677867770195,
+        "RegNet-Y-8GF": 0.32318270206451416,
+        "ViT": 0.07240043580532074
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "171.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.3459433227777481,
+      "agreement_level": "split",
+      "agreement_count": 1,
+      "total_models": 3,
+      "agreement_ratio": 0.3333333333333333,
+      "improved_confidence": 52.96939332237693,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.26117265224456787,
+        "RegNet-Y-8GF": 0.6714455485343933,
+        "ViT": 0.28833356499671936
+      },
+      "model_agreement": "1/3 models agree"
+    },
+    {
+      "image_name": "172.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.008704546589238004,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 98.52574107158539,
+      "individual_probabilities": {
+        "EfficientNet-B2": 4.499380867883929e-09,
+        "RegNet-Y-8GF": 0.040800318121910095,
+        "ViT": 0.005444798152893782
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "173.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.16705804653465747,
+      "agreement_level": "split",
+      "agreement_count": 1,
+      "total_models": 3,
+      "agreement_ratio": 0.3333333333333333,
+      "improved_confidence": 68.27791930792333,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.03926096484065056,
+        "RegNet-Y-8GF": 0.6379412412643433,
+        "ViT": 0.11987122893333435
+      },
+      "model_agreement": "1/3 models agree"
+    },
+    {
+      "image_name": "174.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.21134874895215036,
+      "agreement_level": "split",
+      "agreement_count": 1,
+      "total_models": 3,
+      "agreement_ratio": 0.3333333333333333,
+      "improved_confidence": 62.5604389884348,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.10121365636587143,
+        "RegNet-Y-8GF": 0.6623947024345398,
+        "ViT": 0.08020249009132385
+      },
+      "model_agreement": "1/3 models agree"
+    },
+    {
+      "image_name": "175.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.01945412178756669,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 97.05261508540485,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0017627209890633821,
+        "RegNet-Y-8GF": 0.09099803864955902,
+        "ViT": 0.00020609365310519934
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "176.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.00619617709890008,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 98.91257469014548,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.006863520946353674,
+        "RegNet-Y-8GF": 0.00557201961055398,
+        "ViT": 0.00277308514341712
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "177.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.19968549944460393,
+      "agreement_level": "split",
+      "agreement_count": 2,
+      "total_models": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "improved_confidence": 67.803889133909,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.04389118775725365,
+        "RegNet-Y-8GF": 0.5546290278434753,
+        "ViT": 0.580358624458313
+      },
+      "model_agreement": "2/3 models agree"
+    },
+    {
+      "image_name": "178.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.4354152888059616,
+      "agreement_level": "split",
+      "agreement_count": 1,
+      "total_models": 3,
+      "agreement_ratio": 0.3333333333333333,
+      "improved_confidence": 49.547990682869035,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.4270574748516083,
+        "RegNet-Y-8GF": 0.35481172800064087,
+        "ViT": 0.6551271080970764
+      },
+      "model_agreement": "1/3 models agree"
+    },
+    {
+      "image_name": "179.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.11001526564359665,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 88.90635964430041,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.042677104473114014,
+        "RegNet-Y-8GF": 0.292916476726532,
+        "ViT": 0.21557997167110443
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "18.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.8351993054151534,
+      "agreement_level": "split",
+      "agreement_count": 2,
+      "total_models": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "improved_confidence": 65.75610374997619,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.8835304975509644,
+        "RegNet-Y-8GF": 0.9339867830276489,
+        "ViT": 0.2993060052394867
+      },
+      "model_agreement": "2/3 models agree"
+    },
+    {
+      "image_name": "180.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.05529903257265687,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 92.47834279293347,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.013180791400372982,
+        "RegNet-Y-8GF": 0.08630640059709549,
+        "ViT": 0.28811198472976685
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "181.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.1440819174051285,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 87.35174364008313,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.18480561673641205,
+        "RegNet-Y-8GF": 0.030825667083263397,
+        "ViT": 0.08552852272987366
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "182.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.021529754059156404,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 96.96644816208011,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.017741383984684944,
+        "RegNet-Y-8GF": 0.04543882980942726,
+        "ViT": 0.00023019307991489768
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "183.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.011249749387206975,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 98.15202726206766,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.00012815388618037105,
+        "RegNet-Y-8GF": 0.055712033063173294,
+        "ViT": 0.00017635054246056825
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "184.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.024228799380944112,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 96.51930265836582,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.007194972597062588,
+        "RegNet-Y-8GF": 0.09583628922700882,
+        "ViT": 0.0002506071759853512
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "185.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.015657249098876492,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 97.55966722537607,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0015750718303024769,
+        "RegNet-Y-8GF": 0.07261624932289124,
+        "ViT": 0.000314489530865103
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "186.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9850856125354767,
+      "agreement_level": "unanimous_positive",
+      "agreement_count": 3,
+      "total_models": 3,
+      "agreement_ratio": 1.0,
+      "improved_confidence": 97.71283378286523,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.991405725479126,
+        "RegNet-Y-8GF": 0.9850264191627502,
+        "ViT": 0.9409632086753845
+      },
+      "model_agreement": "3/3 models agree"
+    },
+    {
+      "image_name": "187.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.058494565654837065,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 92.45586854736231,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.01719852164387703,
+        "RegNet-Y-8GF": 0.23221054673194885,
+        "ViT": 0.0001349115773336962
+      },
+      "model_agreement": "0/3 models agree"
+    },
+    {
+      "image_name": "188.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.07242882982827722,
+      "agreement_level": "unanimous_negative",
+      "agreement_count": 0,
+      "total_models": 3,
+      "agreement_ratio": 0.0,
+      "improved_confidence": 92.26347011785279,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.06752735376358032,
+        "RegNet-Y-8GF": 0.123680979013443,
+        "ViT": 0.0042348639108240604
+      },
+      "model_agreement": "0/3 models agree"
+    }
+  ]
+}

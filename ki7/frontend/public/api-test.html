@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Connection Test</title>
+</head>
+<body>
+    <h1>Ki-67 API Connection Test</h1>
+    <div id="output"></div>
+    
+    <script>
+        const output = document.getElementById('output');
+        
+        function log(message) {
+            console.log(message);
+            output.innerHTML += '<p>' + message + '</p>';
+        }
+        
+        async function testAPI() {
+            log('🔍 Testing API connection...');
+            
+            try {
+                // Test health endpoint
+                log('Testing health endpoint...');
+                const healthResponse = await fetch('http://localhost:5001/api/health');
+                const healthData = await healthResponse.json();
+                log('✅ Health check successful: ' + JSON.stringify(healthData));
+                
+                // Test models endpoint
+                log('Testing models endpoint...');
+                const modelsResponse = await fetch('http://localhost:5001/api/models');
+                const modelsData = await modelsResponse.json();
+                log('✅ Models fetch successful: Models=' + modelsData.total_models);
+                
+                log('🎉 All API tests passed!');
+                
+            } catch (error) {
+                log('❌ API test failed: ' + error.message);
+                console.error(error);
+            }
+        }
+        
+        // Run test on page load
+        testAPI();
+    </script>
+</body>
+</html>

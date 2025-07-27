@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.9154228855721394,
+  "precision": 0.8247422680412371,
+  "recall": 0.8247422680412371,
+  "f1_score": 0.8247422680412371,
+  "auc": 0.9622781815109007,
+  "high_conf_accuracy": 0.9795221843003413,
+  "high_conf_samples": 293,
+  "total_samples": 402,
+  "threshold": 0.7,
+  "metric_name": "High-Confidence",
+  "timestamp": "20250621_122105"
+}

@@ -1,0 +1,97 @@
+{
+  "timestamp": "20250619_174226",
+  "models_used": [
+    "EfficientNet-B2",
+    "ConvNeXt-Tiny",
+    "Swin-Tiny",
+    "DenseNet-121",
+    "RegNet-Y-8GF",
+    "InceptionV3",
+    "ResNet50",
+    "ViT"
+  ],
+  "enhancement_techniques": [
+    "Test-Time Augmentation",
+    "Confidence-Weighted Ensemble",
+    "Performance-Weighted Ensemble",
+    "Calibrated Thresholds",
+    "High-Confidence Filtering"
+  ],
+  "best_individual_model": "EfficientNet-B2",
+  "best_individual_accuracy": 91.29353233830845,
+  "best_ensemble_strategy": "Performance Weighted",
+  "best_ensemble_accuracy": 91.7910447761194,
+  "final_accuracy": 91.7910447761194,
+  "individual_results": {
+    "EfficientNet-B2": {
+      "accuracy": 91.29353233830845,
+      "auc": 96.30894034138922,
+      "f1_score": 81.08108108108108
+    },
+    "ConvNeXt-Tiny": {
+      "accuracy": 75.87064676616916,
+      "auc": 92.06016562447186,
+      "f1_score": 0.0
+    },
+    "Swin-Tiny": {
+      "accuracy": 86.31840796019901,
+      "auc": 93.8347135372655,
+      "f1_score": 72.36180904522614
+    },
+    "DenseNet-121": {
+      "accuracy": 84.07960199004975,
+      "auc": 94.29102585769816,
+      "f1_score": 73.77049180327869
+    },
+    "RegNet-Y-8GF": {
+      "accuracy": 90.29850746268657,
+      "auc": 95.5112388034477,
+      "f1_score": 80.97560975609757
+    },
+    "InceptionV3": {
+      "accuracy": 87.81094527363184,
+      "auc": 91.40442791955383,
+      "f1_score": 71.34502923976608
+    },
+    "ResNet50": {
+      "accuracy": 83.83084577114428,
+      "auc": 92.3204326516816,
+      "f1_score": 71.86147186147186
+    },
+    "ViT": {
+      "accuracy": 89.05472636815921,
+      "auc": 94.67297617035659,
+      "f1_score": 76.59574468085107
+    }
+  },
+  "ensemble_results": {
+    "Training Weighted": {
+      "accuracy": 91.54228855721394,
+      "auc": 96.38668244042589,
+      "f1_score": 82.82828282828282
+    },
+    "Confidence Weighted": {
+      "accuracy": 85.57213930348259,
+      "auc": 90.0794321446679,
+      "f1_score": 73.39449541284404
+    },
+    "Performance Weighted": {
+      "accuracy": 91.7910447761194,
+      "auc": 96.34274125401386,
+      "f1_score": 83.41708542713567
+    },
+    "Calibrated Threshold": {
+      "accuracy": 91.54228855721394,
+      "auc": 96.38668244042589,
+      "f1_score": 82.4742268041237,
+      "threshold": 0.5740240422168299
+    },
+    "High Confidence": {
+      "accuracy": 90.79601990049751,
+      "auc": 96.38668244042589,
+      "f1_score": 81.02564102564102
+    }
+  },
+  "target_achieved_95": false,
+  "target_achieved_92": false
+}

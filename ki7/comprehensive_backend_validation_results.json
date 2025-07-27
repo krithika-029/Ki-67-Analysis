@@ -1,0 +1,818 @@
+{
+  "test_summary": {
+    "total_tested": 100,
+    "overall_accuracy": 0.89,
+    "high_conf_accuracy": 0.9726027397260274,
+    "high_conf_coverage": 0.73,
+    "high_conf_samples": "71/73",
+    "sample_size": 100,
+    "validation_script_comparison": {
+      "expected_high_conf_accuracy": 0.98,
+      "actual_high_conf_accuracy": 0.9726027397260274,
+      "expected_coverage": 0.729,
+      "actual_coverage": 0.73
+    }
+  },
+  "detailed_results": [
+    {
+      "image_id": 5,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.4009358584880829,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 10,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.4321606159210205,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 12,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.3304462730884552,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 15,
+      "ground_truth": 0,
+      "prediction": 1,
+      "confidence": 0.6221422553062439,
+      "high_confidence": false,
+      "correct": false
+    },
+    {
+      "image_id": 20,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.5556010603904724,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 25,
+      "ground_truth": 1,
+      "prediction": 0,
+      "confidence": 0.641827404499054,
+      "high_confidence": false,
+      "correct": false
+    },
+    {
+      "image_id": 26,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9049363136291504,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 31,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.8897426724433899,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 40,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9610288739204407,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 41,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.8718797564506531,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 50,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.8002883791923523,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 56,
+      "ground_truth": 0,
+      "prediction": 1,
+      "confidence": 0.7654713988304138,
+      "high_confidence": true,
+      "correct": false
+    },
+    {
+      "image_id": 58,
+      "ground_truth": 0,
+      "prediction": 1,
+      "confidence": 0.6728777885437012,
+      "high_confidence": false,
+      "correct": false
+    },
+    {
+      "image_id": 60,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.8605513572692871,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 76,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.6056077480316162,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 79,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9501419067382812,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 85,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9909188151359558,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 91,
+      "ground_truth": 1,
+      "prediction": 0,
+      "confidence": 0.5286577939987183,
+      "high_confidence": false,
+      "correct": false
+    },
+    {
+      "image_id": 92,
+      "ground_truth": 0,
+      "prediction": 1,
+      "confidence": 0.5124669671058655,
+      "high_confidence": false,
+      "correct": false
+    },
+    {
+      "image_id": 93,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.46532121300697327,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 96,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.6347597241401672,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 97,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.7964844107627869,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 99,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.4681004583835602,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 101,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.935556173324585,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 107,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.8705167174339294,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 115,
+      "ground_truth": 1,
+      "prediction": 0,
+      "confidence": 0.3811265528202057,
+      "high_confidence": false,
+      "correct": false
+    },
+    {
+      "image_id": 122,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.6758878827095032,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 126,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.3477764129638672,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 128,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.7438567280769348,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 129,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.8854503631591797,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 130,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.782555341720581,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 134,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9798328280448914,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 135,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9846751093864441,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 141,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.3659789264202118,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 145,
+      "ground_truth": 1,
+      "prediction": 0,
+      "confidence": 0.7663065791130066,
+      "high_confidence": true,
+      "correct": false
+    },
+    {
+      "image_id": 151,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.2569371461868286,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 154,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9775959849357605,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 156,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9488460421562195,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 160,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.7216188311576843,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 161,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9640246033668518,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 166,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9788384437561035,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 168,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9692196846008301,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 169,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9361310601234436,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 171,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.4371252954006195,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 185,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9463637471199036,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 188,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.8534705638885498,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 193,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.5638473629951477,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 194,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9522861838340759,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 204,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.990199863910675,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 205,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.9850256443023682,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 209,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.9389616847038269,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 215,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.7424436211585999,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 217,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.8469249606132507,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 220,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.45716750621795654,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 223,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.9851986765861511,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 230,
+      "ground_truth": 0,
+      "prediction": 1,
+      "confidence": 0.6913332939147949,
+      "high_confidence": false,
+      "correct": false
+    },
+    {
+      "image_id": 237,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9358493685722351,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 238,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.43038657307624817,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 243,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.8610841631889343,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 249,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9486566185951233,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 250,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9813847541809082,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 251,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9465413093566895,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 256,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.6863541603088379,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 263,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9941083788871765,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 264,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9838098883628845,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 270,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9792398810386658,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 271,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9575863480567932,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 274,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9810791015625,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 280,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9709812998771667,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 281,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9583238959312439,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 283,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9783272743225098,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 285,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9887170791625977,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 289,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9894092082977295,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 296,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9960315227508545,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 308,
+      "ground_truth": 0,
+      "prediction": 1,
+      "confidence": 0.3900139331817627,
+      "high_confidence": false,
+      "correct": false
+    },
+    {
+      "image_id": 309,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9830189347267151,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 313,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.22826431691646576,
+      "high_confidence": false,
+      "correct": true
+    },
+    {
+      "image_id": 316,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.8211691379547119,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 317,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9422340393066406,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 319,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.8021809458732605,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 323,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9821140766143799,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 328,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.709756076335907,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 337,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9456977844238281,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 339,
+      "ground_truth": 1,
+      "prediction": 0,
+      "confidence": 0.41016754508018494,
+      "high_confidence": false,
+      "correct": false
+    },
+    {
+      "image_id": 340,
+      "ground_truth": 1,
+      "prediction": 1,
+      "confidence": 0.8097886443138123,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 341,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9292721748352051,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 348,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9531704783439636,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 357,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9938103556632996,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 358,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.8541502356529236,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 363,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9762008190155029,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 372,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.8609989285469055,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 374,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.976865291595459,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 375,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9953715205192566,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 376,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9743762016296387,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 382,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9134518504142761,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 383,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.8813338279724121,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 385,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9046029448509216,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 387,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9772367477416992,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 389,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9579076170921326,
+      "high_confidence": true,
+      "correct": true
+    },
+    {
+      "image_id": 400,
+      "ground_truth": 0,
+      "prediction": 0,
+      "confidence": 0.9590620994567871,
+      "high_confidence": true,
+      "correct": true
+    }
+  ]
+}

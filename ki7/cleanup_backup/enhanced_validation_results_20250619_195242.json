@@ -1,0 +1,7 @@
+{
+    "individual_results": {
+        "EfficientNet-B2": {
+            "accuracy": 91.7910447761194,
+            "auc": 96.2818996112895,
+            "f1_score": 83.24873096446701,
+            "predictions": 

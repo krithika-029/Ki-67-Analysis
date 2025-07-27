@@ -1,0 +1,82 @@
+{
+  "timestamp": "2025-06-21T11:39:49.045251",
+  "method": "improved_confidence_calculation",
+  "description": "Results using improved confidence calculation methods",
+  "results": [
+    {
+      "prediction": 1,
+      "probability": 0.8764956951141357,
+      "prediction_label": "Positive",
+      "raw_confidence": 0.7529913902282714,
+      "improved_confidence": 0.886865639863414,
+      "agreement_confidence": 1.0,
+      "variance_confidence": 0.9789430894191659,
+      "entropy_confidence": 0.4606493375431123,
+      "magnitude_confidence": 1.0,
+      "confidence_level": "Very High",
+      "clinical_recommendation": "Suitable for autonomous clinical decision making",
+      "models_used": [
+        "EfficientNet-B2",
+        "RegNet-Y-8GF",
+        "ViT"
+      ],
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.8747086524963379,
+        "RegNet-Y-8GF": 0.9392223358154297,
+        "ViT": 0.7635517120361328
+      },
+      "model_agreement": "3/3 models agree",
+      "probability_variance": 0.005264227645208545
+    },
+    {
+      "prediction": 0,
+      "probability": 0.0019862683750261566,
+      "prediction_label": "Negative",
+      "raw_confidence": 0.9960274632499477,
+      "improved_confidence": 0.9958502974032977,
+      "agreement_confidence": 1.0,
+      "variance_confidence": 0.9999539088570257,
+      "entropy_confidence": 0.9793091009452065,
+      "magnitude_confidence": 1.0,
+      "confidence_level": "Very High",
+      "clinical_recommendation": "Suitable for autonomous clinical decision making",
+      "models_used": [
+        "EfficientNet-B2",
+        "RegNet-Y-8GF",
+        "ViT"
+      ],
+      "individual_probabilities": {
+        "EfficientNet-B2": 3.1033391678647604e-07,
+        "RegNet-Y-8GF": 0.008263797499239445,
+        "ViT": 0.0033329164143651724
+      },
+      "model_agreement": "0/3 models agree",
+      "probability_variance": 1.1522785743562751e-05
+    },
+    {
+      "prediction": 0,
+      "probability": 0.46922535076737404,
+      "prediction_label": "Negative",
+      "raw_confidence": 0.06154929846525192,
+      "improved_confidence": 0.4532814367776752,
+      "agreement_confidence": 0.6666666666666667,
+      "variance_confidence": 0.8095912118967103,
+      "entropy_confidence": 0.0027344493129395353,
+      "magnitude_confidence": 0.08501705303788185,
+      "confidence_level": "Very Low",
+      "clinical_recommendation": "Expert review required",
+      "models_used": [
+        "EfficientNet-B2",
+        "RegNet-Y-8GF",
+        "ViT"
+      ],
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.47137391567230225,
+        "RegNet-Y-8GF": 0.6386128664016724,
+        "ViT": 0.11541036516427994
+      },
+      "model_agreement": "1/3 models agree",
+      "probability_variance": 0.047602197025822406
+    }
+  ]
+}

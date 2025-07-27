@@ -1,0 +1,61 @@
+{
+  "timestamp": "20250619_164900",
+  "enhancement_techniques": [
+    "Test-Time Augmentation",
+    "Confidence-Weighted Ensemble",
+    "Performance-Weighted Ensemble",
+    "Calibrated Thresholds",
+    "High-Confidence Filtering"
+  ],
+  "baseline_accuracy": 89.3,
+  "enhanced_accuracy": 90.04975124378109,
+  "improvement": 0.7497512437810911,
+  "best_strategy": "Calibrated Threshold",
+  "individual_results": {
+    "InceptionV3": {
+      "accuracy": 87.31343283582089,
+      "auc": 91.29964509041744,
+      "f1_score": 69.8224852071006
+    },
+    "ResNet50": {
+      "accuracy": 83.08457711442786,
+      "auc": 92.19874936623289,
+      "f1_score": 70.6896551724138
+    },
+    "ViT": {
+      "accuracy": 88.55721393034825,
+      "auc": 94.6256548926821,
+      "f1_score": 75.0
+    }
+  },
+  "ensemble_results": {
+    "Training Weighted": {
+      "accuracy": 89.05472636815921,
+      "auc": 94.83860064221733,
+      "f1_score": 76.34408602150538
+    },
+    "Confidence Weighted": {
+      "accuracy": 89.30348258706468,
+      "auc": 94.84536082474226,
+      "f1_score": 77.00534759358288
+    },
+    "Performance Weighted": {
+      "accuracy": 89.30348258706468,
+      "auc": 94.88592191989184,
+      "f1_score": 77.00534759358288
+    },
+    "Calibrated Threshold": {
+      "accuracy": 90.04975124378109,
+      "auc": 94.83860064221733,
+      "f1_score": 79.38144329896907,
+      "threshold": 0.45404145820449904
+    },
+    "High Confidence": {
+      "accuracy": 88.80597014925374,
+      "auc": 94.83860064221733,
+      "f1_score": 76.43979057591623
+    }
+  },
+  "target_achieved_92": false,
+  "target_achieved_95": false
+}

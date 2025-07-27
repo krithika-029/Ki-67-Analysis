@@ -1,0 +1,54 @@
+{
+  "timestamp": "20250619_134522",
+  "models_used": [
+    "InceptionV3",
+    "ResNet50",
+    "ViT"
+  ],
+  "individual_results": {
+    "InceptionV3": {
+      "accuracy": 18.65671641791045,
+      "auc": NaN,
+      "f1_score": 31.446540880503143
+    },
+    "ResNet50": {
+      "accuracy": 34.07960199004975,
+      "auc": NaN,
+      "f1_score": 50.83487940630798
+    },
+    "ViT": {
+      "accuracy": 18.407960199004975,
+      "auc": NaN,
+      "f1_score": 31.092436974789916
+    }
+  },
+  "ensemble_results": {
+    "Simple Average": {
+      "accuracy": 18.65671641791045,
+      "auc": NaN,
+      "f1_score": 31.446540880503143
+    },
+    "Accuracy Weighted": {
+      "accuracy": 19.65174129353234,
+      "auc": NaN,
+      "f1_score": 32.84823284823285
+    },
+    "AUC Weighted": {
+      "accuracy": 0.0,
+      "auc": 50.0,
+      "f1_score": 0.0
+    },
+    "High Confidence": {
+      "accuracy": 16.169154228855724,
+      "auc": NaN,
+      "f1_score": 27.8372591006424
+    },
+    "Majority Vote": {
+      "accuracy": 21.641791044776117,
+      "auc": NaN,
+      "f1_score": 35.58282208588957
+    }
+  },
+  "best_strategy": "Majority Vote",
+  "target_achieved": false
+}

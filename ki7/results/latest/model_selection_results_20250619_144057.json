@@ -1,0 +1,26 @@
+{
+  "timestamp": "20250619_144057",
+  "total_models_found": 3,
+  "models_tested": 3,
+  "selected_models": 3,
+  "best_ensemble_accuracy": 50.0,
+  "best_strategy": "Simple Average",
+  "target_achieved": false,
+  "selected_model_details": {
+    "Ki67_ViT_best_model_20250619_071454": {
+      "architecture": "ViT",
+      "accuracy": 50.0,
+      "file_name": "Ki67_ViT_best_model_20250619_071454.pth"
+    },
+    "Ki67_ResNet50_best_model_20250619_070508": {
+      "architecture": "ResNet50",
+      "accuracy": 50.0,
+      "file_name": "Ki67_ResNet50_best_model_20250619_070508.pth"
+    },
+    "Ki67_InceptionV3_best_model_20250619_070054": {
+      "architecture": "InceptionV3",
+      "accuracy": 50.0,
+      "file_name": "Ki67_InceptionV3_best_model_20250619_070054.pth"
+    }
+  }
+}

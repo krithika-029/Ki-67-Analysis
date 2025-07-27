@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Blob URL Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .upload-area { border: 2px dashed #ccc; padding: 20px; text-align: center; margin: 20px 0; }
+        .image-preview { max-width: 300px; margin: 10px; border: 1px solid #ddd; }
+        .debug-info { background: #f0f0f0; padding: 10px; margin: 10px 0; }
+        button { padding: 10px 20px; margin: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Image Blob URL Test</h1>
+        
+        <div class="upload-area" onclick="document.getElementById('fileInput').click()">
+            <p>Click here to select an image</p>
+            <input type="file" id="fileInput" style="display: none;" accept="image/*">
+        </div>
+        
+        <div id="debugInfo" class="debug-info">
+            <h3>Debug Info:</h3>
+            <p id="debugText">No image selected</p>
+        </div>
+        
+        <div id="imageContainer">
+            <!-- Images will be displayed here -->
+        </div>
+        
+        <button onclick="testImageDisplay()">Test Image Display</button>
+        <button onclick="clearImages()">Clear Images</button>
+    </div>
+
+    <script>
+        let currentImageData = null;
+        
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                handleImageUpload(file);
+            }
+        });
+        
+        function handleImageUpload(file) {
+            // Clean up previous blob URL if it exists
+            if (currentImageData && currentImageData.preview) {
+                URL.revokeObjectURL(currentImageData.preview);
+            }
+            
+            // Create new image data
+            currentImageData = {
+                file: file,
+                preview: URL.createObjectURL(file),
+                name: file.name,
+                size: file.size,
+                type: file.type
+            };
+            
+            console.log('Image uploaded:', currentImageData);
+            updateDebugInfo();
+            displayImage();
+        }
+        
+        function updateDebugInfo() {
+            const debugText = document.getElementById('debugText');
+            if (currentImageData) {
+                debugText.innerHTML = `
+                    <strong>File name:</strong> ${currentImageData.name}<br>
+                    <strong>File size:</strong> ${currentImageData.size} bytes<br>
+                    <strong>File type:</strong> ${currentImageData.type}<br>
+                    <strong>Preview URL:</strong> ${currentImageData.preview}<br>
+                    <strong>URL valid:</strong> <span id="urlValid">Testing...</span>
+                `;
+                
+                // Test if URL is still valid
+                testUrlValidity();
+            } else {
+                debugText.innerHTML = 'No image selected';
+            }
+        }
+        
+        function testUrlValidity() {
+            if (currentImageData && currentImageData.preview) {
+                const testImg = new Image();
+                testImg.onload = function() {
+                    document.getElementById('urlValid').textContent = 'Yes';
+                    document.getElementById('urlValid').style.color = 'green';
+                };
+                testImg.onerror = function() {
+                    document.getElementById('urlValid').textContent = 'No';
+                    document.getElementById('urlValid').style.color = 'red';
+                };
+                testImg.src = currentImageData.preview;
+            }
+        }
+        
+        function displayImage() {
+            const container = document.getElementById('imageContainer');
+            container.innerHTML = '';
+            
+            if (currentImageData && currentImageData.preview) {
+                const img = document.createElement('img');
+                img.src = currentImageData.preview;
+                img.className = 'image-preview';
+                img.alt = 'Uploaded image';
+                img.onload = function() {
+                    console.log('Image loaded successfully');
+                };
+                img.onerror = function(e) {
+                    console.error('Image load error:', e);
+                };
+                container.appendChild(img);
+            }
+        }
+        
+        function testImageDisplay() {
+            console.log('Testing image display...');
+            updateDebugInfo();
+            displayImage();
+        }
+        
+        function clearImages() {
+            if (currentImageData && currentImageData.preview) {
+                URL.revokeObjectURL(currentImageData.preview);
+            }
+            currentImageData = null;
+            updateDebugInfo();
+            document.getElementById('imageContainer').innerHTML = '';
+        }
+    </script>
+</body>
+</html>

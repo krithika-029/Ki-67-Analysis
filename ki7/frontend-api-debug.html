@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frontend API Debug</title>
+</head>
+<body>
+    <h1>Frontend API Debug Test</h1>
+    <div id="results"></div>
+    
+    <script>
+        async function testAPI() {
+            const results = document.getElementById('results');
+            results.innerHTML = '<p>Testing API...</p>';
+            
+            try {
+                // Test 1: Health check
+                console.log('Testing health endpoint...');
+                const healthResponse = await fetch('http://localhost:5001/api/health');
+                const healthData = await healthResponse.json();
+                console.log('Health data:', healthData);
+                
+                // Test 2: Models endpoint  
+                console.log('Testing models endpoint...');
+                const modelsResponse = await fetch('http://localhost:5001/api/models');
+                const modelsData = await modelsResponse.json();
+                console.log('Models data:', modelsData);
+                
+                // Test 3: Ensemble endpoint
+                console.log('Testing ensemble endpoint...');
+                const ensembleResponse = await fetch('http://localhost:5001/api/ensemble/info');
+                const ensembleData = await ensembleResponse.json();
+                console.log('Ensemble data:', ensembleData);
+                
+                // Display results
+                results.innerHTML = `
+                    <h2>✅ All API calls successful!</h2>
+                    <h3>Health Data:</h3>
+                    <pre>${JSON.stringify(healthData, null, 2)}</pre>
+                    <h3>Models Data:</h3>
+                    <pre>Total Models: ${modelsData.total_models}</pre>
+                    <h3>Ensemble Data:</h3>
+                    <pre>Accuracy: ${ensembleData.ensemble.high_confidence_accuracy}%</pre>
+                    
+                    <h3>Dashboard Stats Should Show:</h3>
+                    <ul>
+                        <li>Models Ready: ${healthData.models_loaded}/${modelsData.total_models}</li>
+                        <li>Avg Accuracy: ${ensembleData.ensemble.high_confidence_accuracy}%</li>
+                        <li>System Status: ${healthData.status}</li>
+                    </ul>
+                `;
+                
+            } catch (error) {
+                console.error('API Error:', error);
+                results.innerHTML = `
+                    <h2>❌ API Error</h2>
+                    <p>${error.message}</p>
+                    <p>Check browser console for details</p>
+                `;
+            }
+        }
+        
+        // Auto-run the test
+        testAPI();
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Debug Test</title>
+</head>
+<body>
+    <h1>API Connection Debug</h1>
+    <div id="results"></div>
+    
+    <script>
+        const results = document.getElementById('results');
+        
+        function log(message, isError = false) {
+            const p = document.createElement('p');
+            p.style.color = isError ? 'red' : 'green';
+            p.textContent = message;
+            results.appendChild(p);
+            console.log(message);
+        }
+        
+        async function testAPIs() {
+            try {
+                log('🔍 Testing health API...');
+                const healthResponse = await fetch('http://localhost:5001/api/health');
+                const healthData = await healthResponse.json();
+                log(`✅ Health: ${healthData.status}, Models: ${healthData.models_loaded}`);
+                
+                log('🔍 Testing models API...');
+                const modelsResponse = await fetch('http://localhost:5001/api/models');
+                const modelsData = await modelsResponse.json();
+                log(`✅ Models: ${modelsData.total_models} total`);
+                
+                log('🔍 Testing ensemble API...');
+                const ensembleResponse = await fetch('http://localhost:5001/api/ensemble/info');
+                const ensembleData = await ensembleResponse.json();
+                log(`✅ Ensemble: ${ensembleData.ensemble.loaded_models} models loaded`);
+                
+                log('🎉 All API tests successful!');
+                
+                // Test the exact same logic as the dashboard
+                log('🧪 Testing dashboard logic...');
+                const dashboardData = {
+                    systemHealth: healthData,
+                    modelsReady: healthData.models_loaded || 0,
+                    avgAccuracy: ensembleData?.ensemble?.high_confidence_accuracy || 97.4,
+                    modelStats: {
+                        totalModels: modelsData.total_models || 0,
+                        availableModels: modelsData.available_models || [],
+                        ensembleInfo: modelsData.ensemble_info || {},
+                        systemStatus: modelsData.system_status || {}
+                    },
+                    ensembleInfo: ensembleData
+                };
+                
+                log(`📊 Dashboard would show: Models ${dashboardData.modelsReady}/${dashboardData.modelStats.totalModels}, Accuracy: ${dashboardData.avgAccuracy}%`);
+                
+            } catch (error) {
+                log(`❌ Error: ${error.message}`, true);
+                console.error(error);
+            }
+        }
+        
+        testAPIs();
+    </script>
+</body>
+</html>

@@ -1,0 +1,345 @@
+{
+  "timestamp": "20250620_203121",
+  "summary": {
+    "total_models": 11,
+    "successful_validations": 6,
+    "failed_validations": 5,
+    "best_accuracy": 0.9253731343283582,
+    "average_accuracy": 0.8528192371475954
+  },
+  "detailed_results": [
+    {
+      "name": "EfficientNet-B5-Champion-STABLE",
+      "architecture": "efficientnet_b5",
+      "file": "Ki67_STABLE_Champion_EfficientNet_B5_Champion_FINAL_90.98_20250620_142507.pth",
+      "test_accuracy": 0.8557213930348259,
+      "precision": 0.656,
+      "recall": 0.845360824742268,
+      "f1_score": 0.7387387387387387,
+      "auc_score": 0.9296603008281223,
+      "confusion_matrix": [
+        [
+          262,
+          43
+        ],
+        [
+          15,
+          82
+        ]
+      ],
+      "training_info": {
+        "best_val_acc": 90.97744360902256,
+        "epoch": 25
+      },
+      "total_params": 28342833,
+      "trainable_params": 28342833
+    },
+    {
+      "name": "EfficientNet-B4-Adapted-Champion",
+      "architecture": "efficientnet_b4",
+      "file": "Ki67_B4_Adapted_Champion_EfficientNet_B4_Adapted_best_model_20250620_133200.pth",
+      "test_accuracy": 0.8283582089552238,
+      "precision": 0.5909090909090909,
+      "recall": 0.9381443298969072,
+      "f1_score": 0.7250996015936255,
+      "auc_score": 0.9467297617035659,
+      "confusion_matrix": [
+        [
+          242,
+          63
+        ],
+        [
+          6,
+          91
+        ]
+      ],
+      "training_info": {
+        "best_val_acc": 88.7218045112782,
+        "epoch": 12
+      },
+      "total_params": 17550409,
+      "trainable_params": 17550409
+    },
+    {
+      "name": "EfficientNet-B4-T4-Champion",
+      "architecture": "efficientnet_b4",
+      "file": "Ki67_T4_Champion_EfficientNet_B4_best_model_20250620_111518.pth",
+      "error": "Weights only load failed. This file can still be loaded, to do so you have two options, \u001b[1mdo those steps only if you trust the source of the checkpoint\u001b[0m. \n\t(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.\n\t(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.\n\tWeightsUnpickler error: Unsupported global: GLOBAL numpy._core.multiarray.scalar was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy._core.multiarray.scalar])` or the `torch.serialization.safe_globals([numpy._core.multiarray.scalar])` context manager to allowlist this global if you trust this class/function.\n\nCheck the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.",
+      "test_accuracy": 0.0
+    },
+    {
+      "name": "EfficientNet-B2-Advanced",
+      "architecture": "efficientnet_b2",
+      "file": "Ki67_Advanced_EfficientNet-B2_best_model_20250619_105754.pth",
+      "test_accuracy": 0.9253731343283582,
+      "precision": 0.8383838383838383,
+      "recall": 0.8556701030927835,
+      "f1_score": 0.8469387755102041,
+      "auc_score": 0.9619401723846545,
+      "confusion_matrix": [
+        [
+          289,
+          16
+        ],
+        [
+          14,
+          83
+        ]
+      ],
+      "training_info": {
+        "epoch": 5,
+        "val_acc": 93.23308270676692
+      },
+      "total_params": 7702403,
+      "trainable_params": 7702403
+    },
+    {
+      "name": "ConvNeXt-Tiny-Advanced",
+      "architecture": "convnext_tiny",
+      "file": "Ki67_Advanced_ConvNeXt-Tiny_best_model_20250619_110232.pth",
+      "test_accuracy": 0.7587064676616916,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "auc_score": 0.9211086699340882,
+      "confusion_matrix": [
+        [
+          305,
+          0
+        ],
+        [
+          97,
+          0
+        ]
+      ],
+      "training_info": {
+        "epoch": 8,
+        "val_acc": 73.6842105263158
+      },
+      "total_params": 27820897,
+      "trainable_params": 27820897
+    },
+    {
+      "name": "Vision-Transformer-Base",
+      "architecture": "vit_base_patch16_224",
+      "file": "Ki67_ViT_best_model_20250619_071454.pth",
+      "test_accuracy": 0.8781094527363185,
+      "precision": 0.7790697674418605,
+      "recall": 0.6907216494845361,
+      "f1_score": 0.73224043715847,
+      "auc_score": 0.9390907554503971,
+      "confusion_matrix": [
+        [
+          286,
+          19
+        ],
+        [
+          30,
+          67
+        ]
+      ],
+      "training_info": {
+        "epoch": 14,
+        "val_acc": 89.47368421052632
+      },
+      "total_params": 85799425,
+      "trainable_params": 85799425
+    },
+    {
+      "name": "DenseNet-121-Advanced",
+      "architecture": "densenet121",
+      "file": "Ki67_Advanced_DenseNet-121_best_model_20250619_111107.pth",
+      "error": "Error(s) in loading state_dict for DenseNet:\n\tMissing key(s) in state_dict: \"classifier.weight\", \"classifier.bias\". \n\tUnexpected key(s) in state_dict: \"classifier.1.weight\", \"classifier.1.bias\". ",
+      "test_accuracy": 0.0
+    },
+    {
+      "name": "Swin-Transformer-Tiny",
+      "architecture": "swin_tiny_patch4_window7_224",
+      "file": "Ki67_Advanced_Swin-Tiny_best_model_20250619_110516.pth",
+      "test_accuracy": 0.8706467661691543,
+      "precision": 0.6890756302521008,
+      "recall": 0.845360824742268,
+      "f1_score": 0.7592592592592593,
+      "auc_score": 0.9372317052560419,
+      "confusion_matrix": [
+        [
+          268,
+          37
+        ],
+        [
+          15,
+          82
+        ]
+      ],
+      "training_info": {
+        "epoch": 5,
+        "val_acc": 82.70676691729324
+      },
+      "total_params": 27520123,
+      "trainable_params": 27520123
+    },
+    {
+      "name": "ResNet50",
+      "architecture": "resnet50",
+      "file": "Ki67_ResNet50_best_model_20250619_070508.pth",
+      "error": "Error(s) in loading state_dict for ResNet:\n\tMissing key(s) in state_dict: \"fc.weight\", \"fc.bias\". \n\tUnexpected key(s) in state_dict: \"fc.1.weight\", \"fc.1.bias\". ",
+      "test_accuracy": 0.0
+    },
+    {
+      "name": "InceptionV3",
+      "architecture": "inception_v3",
+      "file": "Ki67_InceptionV3_best_model_20250619_070054.pth",
+      "error": "Error(s) in loading state_dict for InceptionV3:\n\tMissing key(s) in state_dict: \"fc.weight\", \"fc.bias\". \n\tUnexpected key(s) in state_dict: \"AuxLogits.conv0.conv.weight\", \"AuxLogits.conv0.bn.weight\", \"AuxLogits.conv0.bn.bias\", \"AuxLogits.conv0.bn.running_mean\", \"AuxLogits.conv0.bn.running_var\", \"AuxLogits.conv0.bn.num_batches_tracked\", \"AuxLogits.conv1.conv.weight\", \"AuxLogits.conv1.bn.weight\", \"AuxLogits.conv1.bn.bias\", \"AuxLogits.conv1.bn.running_mean\", \"AuxLogits.conv1.bn.running_var\", \"AuxLogits.conv1.bn.num_batches_tracked\", \"AuxLogits.fc.1.weight\", \"AuxLogits.fc.1.bias\", \"fc.1.weight\", \"fc.1.bias\". ",
+      "test_accuracy": 0.0
+    },
+    {
+      "name": "RegNet-Y-8GF-Advanced",
+      "architecture": "regnetx_008",
+      "file": "Ki67_Advanced_RegNet-Y-8GF_best_model_20250619_111223.pth",
+      "error": "Error(s) in loading state_dict for RegNet:\n\tMissing key(s) in state_dict: \"s4.b3.conv1.conv.weight\", \"s4.b3.conv1.bn.weight\", \"s4.b3.conv1.bn.bias\", \"s4.b3.conv1.bn.running_mean\", \"s4.b3.conv1.bn.running_var\", \"s4.b3.conv2.conv.weight\", \"s4.b3.conv2.bn.weight\", \"s4.b3.conv2.bn.bias\", \"s4.b3.conv2.bn.running_mean\", \"s4.b3.conv2.bn.running_var\", \"s4.b3.conv3.conv.weight\", \"s4.b3.conv3.bn.weight\", \"s4.b3.conv3.bn.bias\", \"s4.b3.conv3.bn.running_mean\", \"s4.b3.conv3.bn.running_var\", \"s4.b4.conv1.conv.weight\", \"s4.b4.conv1.bn.weight\", \"s4.b4.conv1.bn.bias\", \"s4.b4.conv1.bn.running_mean\", \"s4.b4.conv1.bn.running_var\", \"s4.b4.conv2.conv.weight\", \"s4.b4.conv2.bn.weight\", \"s4.b4.conv2.bn.bias\", \"s4.b4.conv2.bn.running_mean\", \"s4.b4.conv2.bn.running_var\", \"s4.b4.conv3.conv.weight\", \"s4.b4.conv3.bn.weight\", \"s4.b4.conv3.bn.bias\", \"s4.b4.conv3.bn.running_mean\", \"s4.b4.conv3.bn.running_var\", \"s4.b5.conv1.conv.weight\", \"s4.b5.conv1.bn.weight\", \"s4.b5.conv1.bn.bias\", \"s4.b5.conv1.bn.running_mean\", \"s4.b5.conv1.bn.running_var\", \"s4.b5.conv2.conv.weight\", \"s4.b5.conv2.bn.weight\", \"s4.b5.conv2.bn.bias\", \"s4.b5.conv2.bn.running_mean\", \"s4.b5.conv2.bn.running_var\", \"s4.b5.conv3.conv.weight\", \"s4.b5.conv3.bn.weight\", \"s4.b5.conv3.bn.bias\", \"s4.b5.conv3.bn.running_mean\", \"s4.b5.conv3.bn.running_var\". \n\tUnexpected key(s) in state_dict: \"s1.b1.se.fc1.weight\", \"s1.b1.se.fc1.bias\", \"s1.b1.se.fc2.weight\", \"s1.b1.se.fc2.bias\", \"s2.b1.se.fc1.weight\", \"s2.b1.se.fc1.bias\", \"s2.b1.se.fc2.weight\", \"s2.b1.se.fc2.bias\", \"s2.b2.se.fc1.weight\", \"s2.b2.se.fc1.bias\", \"s2.b2.se.fc2.weight\", \"s2.b2.se.fc2.bias\", \"s2.b3.se.fc1.weight\", \"s2.b3.se.fc1.bias\", \"s2.b3.se.fc2.weight\", \"s2.b3.se.fc2.bias\", \"s3.b8.conv1.conv.weight\", \"s3.b8.conv1.bn.weight\", \"s3.b8.conv1.bn.bias\", \"s3.b8.conv1.bn.running_mean\", \"s3.b8.conv1.bn.running_var\", \"s3.b8.conv1.bn.num_batches_tracked\", \"s3.b8.conv2.conv.weight\", \"s3.b8.conv2.bn.weight\", \"s3.b8.conv2.bn.bias\", \"s3.b8.conv2.bn.running_mean\", \"s3.b8.conv2.bn.running_var\", \"s3.b8.conv2.bn.num_batches_tracked\", \"s3.b8.se.fc1.weight\", \"s3.b8.se.fc1.bias\", \"s3.b8.se.fc2.weight\", \"s3.b8.se.fc2.bias\", \"s3.b8.conv3.conv.weight\", \"s3.b8.conv3.bn.weight\", \"s3.b8.conv3.bn.bias\", \"s3.b8.conv3.bn.running_mean\", \"s3.b8.conv3.bn.running_var\", \"s3.b8.conv3.bn.num_batches_tracked\", \"s3.b1.se.fc1.weight\", \"s3.b1.se.fc1.bias\", \"s3.b1.se.fc2.weight\", \"s3.b1.se.fc2.bias\", \"s3.b2.se.fc1.weight\", \"s3.b2.se.fc1.bias\", \"s3.b2.se.fc2.weight\", \"s3.b2.se.fc2.bias\", \"s3.b3.se.fc1.weight\", \"s3.b3.se.fc1.bias\", \"s3.b3.se.fc2.weight\", \"s3.b3.se.fc2.bias\", \"s3.b4.se.fc1.weight\", \"s3.b4.se.fc1.bias\", \"s3.b4.se.fc2.weight\", \"s3.b4.se.fc2.bias\", \"s3.b5.se.fc1.weight\", \"s3.b5.se.fc1.bias\", \"s3.b5.se.fc2.weight\", \"s3.b5.se.fc2.bias\", \"s3.b6.se.fc1.weight\", \"s3.b6.se.fc1.bias\", \"s3.b6.se.fc2.weight\", \"s3.b6.se.fc2.bias\", \"s3.b7.se.fc1.weight\", \"s3.b7.se.fc1.bias\", \"s3.b7.se.fc2.weight\", \"s3.b7.se.fc2.bias\", \"s4.b1.se.fc1.weight\", \"s4.b1.se.fc1.bias\", \"s4.b1.se.fc2.weight\", \"s4.b1.se.fc2.bias\", \"s4.b2.se.fc1.weight\", \"s4.b2.se.fc1.bias\", \"s4.b2.se.fc2.weight\", \"s4.b2.se.fc2.bias\". \n\tsize mismatch for s3.b1.conv1.conv.weight: copying a param with shape torch.Size([320, 128, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 128, 1, 1]).\n\tsize mismatch for s3.b1.conv1.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.conv1.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.conv1.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.conv1.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.conv2.conv.weight: copying a param with shape torch.Size([320, 16, 3, 3]) from checkpoint, the shape in current model is torch.Size([288, 16, 3, 3]).\n\tsize mismatch for s3.b1.conv2.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.conv2.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.conv2.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.conv2.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.conv3.conv.weight: copying a param with shape torch.Size([320, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 288, 1, 1]).\n\tsize mismatch for s3.b1.conv3.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.conv3.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.conv3.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.conv3.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.downsample.conv.weight: copying a param with shape torch.Size([320, 128, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 128, 1, 1]).\n\tsize mismatch for s3.b1.downsample.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.downsample.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.downsample.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b1.downsample.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b2.conv1.conv.weight: copying a param with shape torch.Size([320, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 288, 1, 1]).\n\tsize mismatch for s3.b2.conv1.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b2.conv1.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b2.conv1.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b2.conv1.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b2.conv2.conv.weight: copying a param with shape torch.Size([320, 16, 3, 3]) from checkpoint, the shape in current model is torch.Size([288, 16, 3, 3]).\n\tsize mismatch for s3.b2.conv2.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b2.conv2.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b2.conv2.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b2.conv2.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b2.conv3.conv.weight: copying a param with shape torch.Size([320, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 288, 1, 1]).\n\tsize mismatch for s3.b2.conv3.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b2.conv3.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b2.conv3.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b2.conv3.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b3.conv1.conv.weight: copying a param with shape torch.Size([320, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 288, 1, 1]).\n\tsize mismatch for s3.b3.conv1.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b3.conv1.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b3.conv1.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b3.conv1.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b3.conv2.conv.weight: copying a param with shape torch.Size([320, 16, 3, 3]) from checkpoint, the shape in current model is torch.Size([288, 16, 3, 3]).\n\tsize mismatch for s3.b3.conv2.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b3.conv2.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b3.conv2.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b3.conv2.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b3.conv3.conv.weight: copying a param with shape torch.Size([320, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 288, 1, 1]).\n\tsize mismatch for s3.b3.conv3.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b3.conv3.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b3.conv3.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b3.conv3.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b4.conv1.conv.weight: copying a param with shape torch.Size([320, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 288, 1, 1]).\n\tsize mismatch for s3.b4.conv1.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b4.conv1.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b4.conv1.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b4.conv1.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b4.conv2.conv.weight: copying a param with shape torch.Size([320, 16, 3, 3]) from checkpoint, the shape in current model is torch.Size([288, 16, 3, 3]).\n\tsize mismatch for s3.b4.conv2.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b4.conv2.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b4.conv2.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b4.conv2.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b4.conv3.conv.weight: copying a param with shape torch.Size([320, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 288, 1, 1]).\n\tsize mismatch for s3.b4.conv3.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b4.conv3.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b4.conv3.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b4.conv3.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b5.conv1.conv.weight: copying a param with shape torch.Size([320, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 288, 1, 1]).\n\tsize mismatch for s3.b5.conv1.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b5.conv1.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b5.conv1.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b5.conv1.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b5.conv2.conv.weight: copying a param with shape torch.Size([320, 16, 3, 3]) from checkpoint, the shape in current model is torch.Size([288, 16, 3, 3]).\n\tsize mismatch for s3.b5.conv2.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b5.conv2.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b5.conv2.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b5.conv2.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b5.conv3.conv.weight: copying a param with shape torch.Size([320, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 288, 1, 1]).\n\tsize mismatch for s3.b5.conv3.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b5.conv3.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b5.conv3.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b5.conv3.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b6.conv1.conv.weight: copying a param with shape torch.Size([320, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 288, 1, 1]).\n\tsize mismatch for s3.b6.conv1.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b6.conv1.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b6.conv1.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b6.conv1.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b6.conv2.conv.weight: copying a param with shape torch.Size([320, 16, 3, 3]) from checkpoint, the shape in current model is torch.Size([288, 16, 3, 3]).\n\tsize mismatch for s3.b6.conv2.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b6.conv2.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b6.conv2.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b6.conv2.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b6.conv3.conv.weight: copying a param with shape torch.Size([320, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 288, 1, 1]).\n\tsize mismatch for s3.b6.conv3.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b6.conv3.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b6.conv3.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b6.conv3.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b7.conv1.conv.weight: copying a param with shape torch.Size([320, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 288, 1, 1]).\n\tsize mismatch for s3.b7.conv1.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b7.conv1.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b7.conv1.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b7.conv1.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b7.conv2.conv.weight: copying a param with shape torch.Size([320, 16, 3, 3]) from checkpoint, the shape in current model is torch.Size([288, 16, 3, 3]).\n\tsize mismatch for s3.b7.conv2.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b7.conv2.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b7.conv2.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b7.conv2.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b7.conv3.conv.weight: copying a param with shape torch.Size([320, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([288, 288, 1, 1]).\n\tsize mismatch for s3.b7.conv3.bn.weight: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b7.conv3.bn.bias: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b7.conv3.bn.running_mean: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s3.b7.conv3.bn.running_var: copying a param with shape torch.Size([320]) from checkpoint, the shape in current model is torch.Size([288]).\n\tsize mismatch for s4.b1.conv1.conv.weight: copying a param with shape torch.Size([768, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([672, 288, 1, 1]).\n\tsize mismatch for s4.b1.conv1.bn.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.conv1.bn.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.conv1.bn.running_mean: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.conv1.bn.running_var: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.conv2.conv.weight: copying a param with shape torch.Size([768, 16, 3, 3]) from checkpoint, the shape in current model is torch.Size([672, 16, 3, 3]).\n\tsize mismatch for s4.b1.conv2.bn.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.conv2.bn.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.conv2.bn.running_mean: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.conv2.bn.running_var: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.conv3.conv.weight: copying a param with shape torch.Size([768, 768, 1, 1]) from checkpoint, the shape in current model is torch.Size([672, 672, 1, 1]).\n\tsize mismatch for s4.b1.conv3.bn.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.conv3.bn.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.conv3.bn.running_mean: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.conv3.bn.running_var: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.downsample.conv.weight: copying a param with shape torch.Size([768, 320, 1, 1]) from checkpoint, the shape in current model is torch.Size([672, 288, 1, 1]).\n\tsize mismatch for s4.b1.downsample.bn.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.downsample.bn.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.downsample.bn.running_mean: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b1.downsample.bn.running_var: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b2.conv1.conv.weight: copying a param with shape torch.Size([768, 768, 1, 1]) from checkpoint, the shape in current model is torch.Size([672, 672, 1, 1]).\n\tsize mismatch for s4.b2.conv1.bn.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b2.conv1.bn.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b2.conv1.bn.running_mean: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b2.conv1.bn.running_var: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b2.conv2.conv.weight: copying a param with shape torch.Size([768, 16, 3, 3]) from checkpoint, the shape in current model is torch.Size([672, 16, 3, 3]).\n\tsize mismatch for s4.b2.conv2.bn.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b2.conv2.bn.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b2.conv2.bn.running_mean: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b2.conv2.bn.running_var: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b2.conv3.conv.weight: copying a param with shape torch.Size([768, 768, 1, 1]) from checkpoint, the shape in current model is torch.Size([672, 672, 1, 1]).\n\tsize mismatch for s4.b2.conv3.bn.weight: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b2.conv3.bn.bias: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b2.conv3.bn.running_mean: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for s4.b2.conv3.bn.running_var: copying a param with shape torch.Size([768]) from checkpoint, the shape in current model is torch.Size([672]).\n\tsize mismatch for head.fc.weight: copying a param with shape torch.Size([1, 768]) from checkpoint, the shape in current model is torch.Size([1, 672]).",
+      "test_accuracy": 0.0
+    }
+  ],
+  "top_performers": [
+    {
+      "name": "EfficientNet-B2-Advanced",
+      "architecture": "efficientnet_b2",
+      "file": "Ki67_Advanced_EfficientNet-B2_best_model_20250619_105754.pth",
+      "test_accuracy": 0.9253731343283582,
+      "precision": 0.8383838383838383,
+      "recall": 0.8556701030927835,
+      "f1_score": 0.8469387755102041,
+      "auc_score": 0.9619401723846545,
+      "confusion_matrix": [
+        [
+          289,
+          16
+        ],
+        [
+          14,
+          83
+        ]
+      ],
+      "training_info": {
+        "epoch": 5,
+        "val_acc": 93.23308270676692
+      },
+      "total_params": 7702403,
+      "trainable_params": 7702403
+    },
+    {
+      "name": "Vision-Transformer-Base",
+      "architecture": "vit_base_patch16_224",
+      "file": "Ki67_ViT_best_model_20250619_071454.pth",
+      "test_accuracy": 0.8781094527363185,
+      "precision": 0.7790697674418605,
+      "recall": 0.6907216494845361,
+      "f1_score": 0.73224043715847,
+      "auc_score": 0.9390907554503971,
+      "confusion_matrix": [
+        [
+          286,
+          19
+        ],
+        [
+          30,
+          67
+        ]
+      ],
+      "training_info": {
+        "epoch": 14,
+        "val_acc": 89.47368421052632
+      },
+      "total_params": 85799425,
+      "trainable_params": 85799425
+    },
+    {
+      "name": "Swin-Transformer-Tiny",
+      "architecture": "swin_tiny_patch4_window7_224",
+      "file": "Ki67_Advanced_Swin-Tiny_best_model_20250619_110516.pth",
+      "test_accuracy": 0.8706467661691543,
+      "precision": 0.6890756302521008,
+      "recall": 0.845360824742268,
+      "f1_score": 0.7592592592592593,
+      "auc_score": 0.9372317052560419,
+      "confusion_matrix": [
+        [
+          268,
+          37
+        ],
+        [
+          15,
+          82
+        ]
+      ],
+      "training_info": {
+        "epoch": 5,
+        "val_acc": 82.70676691729324
+      },
+      "total_params": 27520123,
+      "trainable_params": 27520123
+    },
+    {
+      "name": "EfficientNet-B5-Champion-STABLE",
+      "architecture": "efficientnet_b5",
+      "file": "Ki67_STABLE_Champion_EfficientNet_B5_Champion_FINAL_90.98_20250620_142507.pth",
+      "test_accuracy": 0.8557213930348259,
+      "precision": 0.656,
+      "recall": 0.845360824742268,
+      "f1_score": 0.7387387387387387,
+      "auc_score": 0.9296603008281223,
+      "confusion_matrix": [
+        [
+          262,
+          43
+        ],
+        [
+          15,
+          82
+        ]
+      ],
+      "training_info": {
+        "best_val_acc": 90.97744360902256,
+        "epoch": 25
+      },
+      "total_params": 28342833,
+      "trainable_params": 28342833
+    },
+    {
+      "name": "EfficientNet-B4-Adapted-Champion",
+      "architecture": "efficientnet_b4",
+      "file": "Ki67_B4_Adapted_Champion_EfficientNet_B4_Adapted_best_model_20250620_133200.pth",
+      "test_accuracy": 0.8283582089552238,
+      "precision": 0.5909090909090909,
+      "recall": 0.9381443298969072,
+      "f1_score": 0.7250996015936255,
+      "auc_score": 0.9467297617035659,
+      "confusion_matrix": [
+        [
+          242,
+          63
+        ],
+        [
+          6,
+          91
+        ]
+      ],
+      "training_info": {
+        "best_val_acc": 88.7218045112782,
+        "epoch": 12
+      },
+      "total_params": 17550409,
+      "trainable_params": 17550409
+    }
+  ],
+  "recommendations": {
+    "ensemble_candidates": [
+      "EfficientNet-B2-Advanced",
+      "Vision-Transformer-Base",
+      "Swin-Transformer-Tiny",
+      "EfficientNet-B5-Champion-STABLE",
+      "EfficientNet-B4-Adapted-Champion"
+    ],
+    "best_single_model": "EfficientNet-B2-Advanced"
+  }
+}

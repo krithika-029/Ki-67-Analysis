@@ -1,0 +1,2748 @@
+{
+  "validation_timestamp": "2025-06-21 12:04:27",
+  "method": "corrected_ground_truth_validation",
+  "dataset_size": 100,
+  "overall_accuracy": 95.0,
+  "best_subset": {
+    "name": "Perfect Confidence",
+    "accuracy": 100.0,
+    "count": 41,
+    "coverage": 41.0
+  },
+  "all_subsets": {
+    "Perfect Confidence": {
+      "count": 41,
+      "accuracy": 100.0,
+      "coverage": 41.0
+    },
+    "Very High Confidence": {
+      "count": 60,
+      "accuracy": 100.0,
+      "coverage": 60.0
+    },
+    "Research Criteria": {
+      "count": 68,
+      "accuracy": 100.0,
+      "coverage": 68.0
+    },
+    "High Confidence": {
+      "count": 68,
+      "accuracy": 100.0,
+      "coverage": 68.0
+    },
+    "Strong Predictions": {
+      "count": 73,
+      "accuracy": 100.0,
+      "coverage": 73.0
+    },
+    "Unanimous Agreement": {
+      "count": 74,
+      "accuracy": 98.64864864864865,
+      "coverage": 74.0
+    }
+  },
+  "file_size_analysis": [
+    {
+      "image": "0.png",
+      "pos_size": 2560,
+      "neg_size": 3744,
+      "size_diff": 1184,
+      "true_class": "negative"
+    },
+    {
+      "image": "1.png",
+      "pos_size": 2352,
+      "neg_size": 3488,
+      "size_diff": 1136,
+      "true_class": "negative"
+    },
+    {
+      "image": "10.png",
+      "pos_size": 2768,
+      "neg_size": 2896,
+      "size_diff": 128,
+      "true_class": "negative"
+    },
+    {
+      "image": "100.png",
+      "pos_size": 4336,
+      "neg_size": 4064,
+      "size_diff": 272,
+      "true_class": "positive"
+    },
+    {
+      "image": "101.png",
+      "pos_size": 3776,
+      "neg_size": 2656,
+      "size_diff": 1120,
+      "true_class": "positive"
+    },
+    {
+      "image": "102.png",
+      "pos_size": 3648,
+      "neg_size": 2896,
+      "size_diff": 752,
+      "true_class": "positive"
+    },
+    {
+      "image": "103.png",
+      "pos_size": 3904,
+      "neg_size": 2608,
+      "size_diff": 1296,
+      "true_class": "positive"
+    },
+    {
+      "image": "104.png",
+      "pos_size": 3808,
+      "neg_size": 2208,
+      "size_diff": 1600,
+      "true_class": "positive"
+    },
+    {
+      "image": "105.png",
+      "pos_size": 3344,
+      "neg_size": 2624,
+      "size_diff": 720,
+      "true_class": "positive"
+    },
+    {
+      "image": "106.png",
+      "pos_size": 2832,
+      "neg_size": 2464,
+      "size_diff": 368,
+      "true_class": "positive"
+    },
+    {
+      "image": "107.png",
+      "pos_size": 2912,
+      "neg_size": 2400,
+      "size_diff": 512,
+      "true_class": "positive"
+    },
+    {
+      "image": "108.png",
+      "pos_size": 3216,
+      "neg_size": 2288,
+      "size_diff": 928,
+      "true_class": "positive"
+    },
+    {
+      "image": "109.png",
+      "pos_size": 3712,
+      "neg_size": 2512,
+      "size_diff": 1200,
+      "true_class": "positive"
+    },
+    {
+      "image": "11.png",
+      "pos_size": 2512,
+      "neg_size": 3088,
+      "size_diff": 576,
+      "true_class": "negative"
+    },
+    {
+      "image": "110.png",
+      "pos_size": 3536,
+      "neg_size": 2448,
+      "size_diff": 1088,
+      "true_class": "positive"
+    },
+    {
+      "image": "111.png",
+      "pos_size": 4640,
+      "neg_size": 2864,
+      "size_diff": 1776,
+      "true_class": "positive"
+    },
+    {
+      "image": "112.png",
+      "pos_size": 4304,
+      "neg_size": 3792,
+      "size_diff": 512,
+      "true_class": "positive"
+    },
+    {
+      "image": "113.png",
+      "pos_size": 5072,
+      "neg_size": 3600,
+      "size_diff": 1472,
+      "true_class": "positive"
+    },
+    {
+      "image": "114.png",
+      "pos_size": 2864,
+      "neg_size": 3184,
+      "size_diff": 320,
+      "true_class": "negative"
+    },
+    {
+      "image": "115.png",
+      "pos_size": 3056,
+      "neg_size": 3056,
+      "size_diff": 0,
+      "true_class": "negative"
+    },
+    {
+      "image": "116.png",
+      "pos_size": 2784,
+      "neg_size": 3296,
+      "size_diff": 512,
+      "true_class": "negative"
+    },
+    {
+      "image": "117.png",
+      "pos_size": 2896,
+      "neg_size": 3888,
+      "size_diff": 992,
+      "true_class": "negative"
+    },
+    {
+      "image": "118.png",
+      "pos_size": 2896,
+      "neg_size": 3984,
+      "size_diff": 1088,
+      "true_class": "negative"
+    },
+    {
+      "image": "119.png",
+      "pos_size": 2976,
+      "neg_size": 3776,
+      "size_diff": 800,
+      "true_class": "negative"
+    },
+    {
+      "image": "12.png",
+      "pos_size": 3168,
+      "neg_size": 3360,
+      "size_diff": 192,
+      "true_class": "negative"
+    },
+    {
+      "image": "120.png",
+      "pos_size": 2816,
+      "neg_size": 4032,
+      "size_diff": 1216,
+      "true_class": "negative"
+    },
+    {
+      "image": "121.png",
+      "pos_size": 2704,
+      "neg_size": 4000,
+      "size_diff": 1296,
+      "true_class": "negative"
+    },
+    {
+      "image": "122.png",
+      "pos_size": 3168,
+      "neg_size": 4096,
+      "size_diff": 928,
+      "true_class": "negative"
+    },
+    {
+      "image": "123.png",
+      "pos_size": 4560,
+      "neg_size": 3088,
+      "size_diff": 1472,
+      "true_class": "positive"
+    },
+    {
+      "image": "124.png",
+      "pos_size": 3584,
+      "neg_size": 3376,
+      "size_diff": 208,
+      "true_class": "positive"
+    },
+    {
+      "image": "125.png",
+      "pos_size": 3984,
+      "neg_size": 3232,
+      "size_diff": 752,
+      "true_class": "positive"
+    },
+    {
+      "image": "126.png",
+      "pos_size": 3936,
+      "neg_size": 3776,
+      "size_diff": 160,
+      "true_class": "positive"
+    },
+    {
+      "image": "127.png",
+      "pos_size": 3504,
+      "neg_size": 3952,
+      "size_diff": 448,
+      "true_class": "negative"
+    },
+    {
+      "image": "128.png",
+      "pos_size": 4000,
+      "neg_size": 3408,
+      "size_diff": 592,
+      "true_class": "positive"
+    },
+    {
+      "image": "129.png",
+      "pos_size": 3248,
+      "neg_size": 4176,
+      "size_diff": 928,
+      "true_class": "negative"
+    },
+    {
+      "image": "13.png",
+      "pos_size": 2896,
+      "neg_size": 3648,
+      "size_diff": 752,
+      "true_class": "negative"
+    },
+    {
+      "image": "130.png",
+      "pos_size": 3232,
+      "neg_size": 4288,
+      "size_diff": 1056,
+      "true_class": "negative"
+    },
+    {
+      "image": "131.png",
+      "pos_size": 3344,
+      "neg_size": 2592,
+      "size_diff": 752,
+      "true_class": "positive"
+    },
+    {
+      "image": "132.png",
+      "pos_size": 3280,
+      "neg_size": 4272,
+      "size_diff": 992,
+      "true_class": "negative"
+    },
+    {
+      "image": "133.png",
+      "pos_size": 2560,
+      "neg_size": 3712,
+      "size_diff": 1152,
+      "true_class": "negative"
+    },
+    {
+      "image": "134.png",
+      "pos_size": 2624,
+      "neg_size": 3760,
+      "size_diff": 1136,
+      "true_class": "negative"
+    },
+    {
+      "image": "135.png",
+      "pos_size": 3136,
+      "neg_size": 4384,
+      "size_diff": 1248,
+      "true_class": "negative"
+    },
+    {
+      "image": "136.png",
+      "pos_size": 2752,
+      "neg_size": 3312,
+      "size_diff": 560,
+      "true_class": "negative"
+    },
+    {
+      "image": "137.png",
+      "pos_size": 2368,
+      "neg_size": 3696,
+      "size_diff": 1328,
+      "true_class": "negative"
+    },
+    {
+      "image": "138.png",
+      "pos_size": 2624,
+      "neg_size": 4288,
+      "size_diff": 1664,
+      "true_class": "negative"
+    },
+    {
+      "image": "139.png",
+      "pos_size": 3024,
+      "neg_size": 5216,
+      "size_diff": 2192,
+      "true_class": "negative"
+    },
+    {
+      "image": "14.png",
+      "pos_size": 2864,
+      "neg_size": 3296,
+      "size_diff": 432,
+      "true_class": "negative"
+    },
+    {
+      "image": "140.png",
+      "pos_size": 4144,
+      "neg_size": 3568,
+      "size_diff": 576,
+      "true_class": "positive"
+    },
+    {
+      "image": "141.png",
+      "pos_size": 3952,
+      "neg_size": 3008,
+      "size_diff": 944,
+      "true_class": "positive"
+    },
+    {
+      "image": "142.png",
+      "pos_size": 3744,
+      "neg_size": 2864,
+      "size_diff": 880,
+      "true_class": "positive"
+    },
+    {
+      "image": "143.png",
+      "pos_size": 3472,
+      "neg_size": 2928,
+      "size_diff": 544,
+      "true_class": "positive"
+    },
+    {
+      "image": "144.png",
+      "pos_size": 3776,
+      "neg_size": 3296,
+      "size_diff": 480,
+      "true_class": "positive"
+    },
+    {
+      "image": "145.png",
+      "pos_size": 4032,
+      "neg_size": 4032,
+      "size_diff": 0,
+      "true_class": "negative"
+    },
+    {
+      "image": "146.png",
+      "pos_size": 3808,
+      "neg_size": 3680,
+      "size_diff": 128,
+      "true_class": "positive"
+    },
+    {
+      "image": "147.png",
+      "pos_size": 3760,
+      "neg_size": 4192,
+      "size_diff": 432,
+      "true_class": "negative"
+    },
+    {
+      "image": "148.png",
+      "pos_size": 4256,
+      "neg_size": 2976,
+      "size_diff": 1280,
+      "true_class": "positive"
+    },
+    {
+      "image": "149.png",
+      "pos_size": 3472,
+      "neg_size": 4560,
+      "size_diff": 1088,
+      "true_class": "negative"
+    },
+    {
+      "image": "15.png",
+      "pos_size": 4000,
+      "neg_size": 4336,
+      "size_diff": 336,
+      "true_class": "negative"
+    },
+    {
+      "image": "150.png",
+      "pos_size": 3504,
+      "neg_size": 3904,
+      "size_diff": 400,
+      "true_class": "negative"
+    },
+    {
+      "image": "151.png",
+      "pos_size": 3008,
+      "neg_size": 3680,
+      "size_diff": 672,
+      "true_class": "negative"
+    },
+    {
+      "image": "152.png",
+      "pos_size": 3312,
+      "neg_size": 4048,
+      "size_diff": 736,
+      "true_class": "negative"
+    },
+    {
+      "image": "153.png",
+      "pos_size": 2784,
+      "neg_size": 3456,
+      "size_diff": 672,
+      "true_class": "negative"
+    },
+    {
+      "image": "154.png",
+      "pos_size": 2688,
+      "neg_size": 3312,
+      "size_diff": 624,
+      "true_class": "negative"
+    },
+    {
+      "image": "155.png",
+      "pos_size": 2672,
+      "neg_size": 3376,
+      "size_diff": 704,
+      "true_class": "negative"
+    },
+    {
+      "image": "156.png",
+      "pos_size": 2544,
+      "neg_size": 3072,
+      "size_diff": 528,
+      "true_class": "negative"
+    },
+    {
+      "image": "157.png",
+      "pos_size": 3104,
+      "neg_size": 3056,
+      "size_diff": 48,
+      "true_class": "negative"
+    },
+    {
+      "image": "158.png",
+      "pos_size": 3520,
+      "neg_size": 3152,
+      "size_diff": 368,
+      "true_class": "positive"
+    },
+    {
+      "image": "159.png",
+      "pos_size": 4048,
+      "neg_size": 3536,
+      "size_diff": 512,
+      "true_class": "positive"
+    },
+    {
+      "image": "16.png",
+      "pos_size": 2976,
+      "neg_size": 3120,
+      "size_diff": 144,
+      "true_class": "negative"
+    },
+    {
+      "image": "160.png",
+      "pos_size": 4816,
+      "neg_size": 3472,
+      "size_diff": 1344,
+      "true_class": "positive"
+    },
+    {
+      "image": "161.png",
+      "pos_size": 3104,
+      "neg_size": 5024,
+      "size_diff": 1920,
+      "true_class": "negative"
+    },
+    {
+      "image": "162.png",
+      "pos_size": 4512,
+      "neg_size": 3584,
+      "size_diff": 928,
+      "true_class": "positive"
+    },
+    {
+      "image": "163.png",
+      "pos_size": 2816,
+      "neg_size": 2160,
+      "size_diff": 656,
+      "true_class": "positive"
+    },
+    {
+      "image": "164.png",
+      "pos_size": 2432,
+      "neg_size": 4288,
+      "size_diff": 1856,
+      "true_class": "negative"
+    },
+    {
+      "image": "165.png",
+      "pos_size": 2144,
+      "neg_size": 2352,
+      "size_diff": 208,
+      "true_class": "negative"
+    },
+    {
+      "image": "166.png",
+      "pos_size": 2144,
+      "neg_size": 2560,
+      "size_diff": 416,
+      "true_class": "negative"
+    },
+    {
+      "image": "167.png",
+      "pos_size": 2176,
+      "neg_size": 3376,
+      "size_diff": 1200,
+      "true_class": "negative"
+    },
+    {
+      "image": "168.png",
+      "pos_size": 2224,
+      "neg_size": 3136,
+      "size_diff": 912,
+      "true_class": "negative"
+    },
+    {
+      "image": "169.png",
+      "pos_size": 2208,
+      "neg_size": 4096,
+      "size_diff": 1888,
+      "true_class": "negative"
+    },
+    {
+      "image": "17.png",
+      "pos_size": 2688,
+      "neg_size": 3344,
+      "size_diff": 656,
+      "true_class": "negative"
+    },
+    {
+      "image": "170.png",
+      "pos_size": 3328,
+      "neg_size": 5312,
+      "size_diff": 1984,
+      "true_class": "negative"
+    },
+    {
+      "image": "171.png",
+      "pos_size": 2592,
+      "neg_size": 3584,
+      "size_diff": 992,
+      "true_class": "negative"
+    },
+    {
+      "image": "172.png",
+      "pos_size": 2992,
+      "neg_size": 5936,
+      "size_diff": 2944,
+      "true_class": "negative"
+    },
+    {
+      "image": "173.png",
+      "pos_size": 3024,
+      "neg_size": 4464,
+      "size_diff": 1440,
+      "true_class": "negative"
+    },
+    {
+      "image": "174.png",
+      "pos_size": 2512,
+      "neg_size": 3360,
+      "size_diff": 848,
+      "true_class": "negative"
+    },
+    {
+      "image": "175.png",
+      "pos_size": 2464,
+      "neg_size": 4752,
+      "size_diff": 2288,
+      "true_class": "negative"
+    },
+    {
+      "image": "176.png",
+      "pos_size": 2784,
+      "neg_size": 4752,
+      "size_diff": 1968,
+      "true_class": "negative"
+    },
+    {
+      "image": "177.png",
+      "pos_size": 2896,
+      "neg_size": 3856,
+      "size_diff": 960,
+      "true_class": "negative"
+    },
+    {
+      "image": "178.png",
+      "pos_size": 2752,
+      "neg_size": 3840,
+      "size_diff": 1088,
+      "true_class": "negative"
+    },
+    {
+      "image": "179.png",
+      "pos_size": 2784,
+      "neg_size": 4688,
+      "size_diff": 1904,
+      "true_class": "negative"
+    },
+    {
+      "image": "18.png",
+      "pos_size": 3120,
+      "neg_size": 2320,
+      "size_diff": 800,
+      "true_class": "positive"
+    },
+    {
+      "image": "180.png",
+      "pos_size": 2624,
+      "neg_size": 3696,
+      "size_diff": 1072,
+      "true_class": "negative"
+    },
+    {
+      "image": "181.png",
+      "pos_size": 2800,
+      "neg_size": 4080,
+      "size_diff": 1280,
+      "true_class": "negative"
+    },
+    {
+      "image": "182.png",
+      "pos_size": 2608,
+      "neg_size": 4992,
+      "size_diff": 2384,
+      "true_class": "negative"
+    },
+    {
+      "image": "183.png",
+      "pos_size": 2608,
+      "neg_size": 4592,
+      "size_diff": 1984,
+      "true_class": "negative"
+    },
+    {
+      "image": "184.png",
+      "pos_size": 2528,
+      "neg_size": 4400,
+      "size_diff": 1872,
+      "true_class": "negative"
+    },
+    {
+      "image": "185.png",
+      "pos_size": 2512,
+      "neg_size": 5552,
+      "size_diff": 3040,
+      "true_class": "negative"
+    },
+    {
+      "image": "186.png",
+      "pos_size": 3504,
+      "neg_size": 2448,
+      "size_diff": 1056,
+      "true_class": "positive"
+    },
+    {
+      "image": "187.png",
+      "pos_size": 2528,
+      "neg_size": 4048,
+      "size_diff": 1520,
+      "true_class": "negative"
+    },
+    {
+      "image": "188.png",
+      "pos_size": 2800,
+      "neg_size": 3776,
+      "size_diff": 976,
+      "true_class": "negative"
+    }
+  ],
+  "detailed_results": [
+    {
+      "image_name": "0.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.005040289672251674,
+      "improved_confidence": 0.9907874975195345,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 9.464933100389317e-06,
+        "RegNet-Y-8GF": 0.01573437824845314,
+        "ViT": 0.018867885693907738
+      },
+      "file_size_diff": 1184,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "1.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.0019862683750261566,
+      "improved_confidence": 0.9958502974032977,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 3.1033391678647604e-07,
+        "RegNet-Y-8GF": 0.008263797499239445,
+        "ViT": 0.0033329164143651724
+      },
+      "file_size_diff": 1136,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "10.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.46922535076737404,
+      "improved_confidence": 0.4532814367776752,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 1,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.47137391567230225,
+        "RegNet-Y-8GF": 0.6386128664016724,
+        "ViT": 0.11541036516427994
+      },
+      "file_size_diff": 128,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "100.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.5415245890617371,
+      "improved_confidence": 0.48770979843503115,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 2,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.5468624830245972,
+        "RegNet-Y-8GF": 0.619881808757782,
+        "ViT": 0.34744489192962646
+      },
+      "file_size_diff": 272,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "101.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9707110822200775,
+      "improved_confidence": 0.9617369546954861,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9695708751678467,
+        "RegNet-Y-8GF": 0.9815526604652405,
+        "ViT": 0.9570093750953674
+      },
+      "file_size_diff": 1120,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "102.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9578091084957122,
+      "improved_confidence": 0.9489740456163229,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9599388241767883,
+        "RegNet-Y-8GF": 0.9713979363441467,
+        "ViT": 0.915723443031311
+      },
+      "file_size_diff": 752,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "103.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9822492897510529,
+      "improved_confidence": 0.9742755317046385,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9824124574661255,
+        "RegNet-Y-8GF": 0.9811062812805176,
+        "ViT": 0.983393132686615
+      },
+      "file_size_diff": 1296,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "104.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9958386242389679,
+      "improved_confidence": 0.992171741555983,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9971690773963928,
+        "RegNet-Y-8GF": 0.9977115392684937,
+        "ViT": 0.9827796220779419
+      },
+      "file_size_diff": 1600,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "105.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9698088467121124,
+      "improved_confidence": 0.9596314046486032,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9806120991706848,
+        "RegNet-Y-8GF": 0.967646062374115,
+        "ViT": 0.8985116481781006
+      },
+      "file_size_diff": 720,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "106.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.928608477115631,
+      "improved_confidence": 0.7576272963375006,
+      "unanimous_agreement": false,
+      "strong_prediction": true,
+      "high_confidence": false,
+      "agreement_count": 2,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9781910181045532,
+        "RegNet-Y-8GF": 0.9723877310752869,
+        "ViT": 0.49397218227386475
+      },
+      "file_size_diff": 368,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "107.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9522123038768768,
+      "improved_confidence": 0.9422745707149334,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.954936683177948,
+        "RegNet-Y-8GF": 0.9838506579399109,
+        "ViT": 0.8698649406433105
+      },
+      "file_size_diff": 512,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "108.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9879180669784546,
+      "improved_confidence": 0.9809575552420493,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.990233302116394,
+        "RegNet-Y-8GF": 0.9924159049987793,
+        "ViT": 0.962715744972229
+      },
+      "file_size_diff": 928,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "109.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9942693769931793,
+      "improved_confidence": 0.9897644140818997,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9956287145614624,
+        "RegNet-Y-8GF": 0.9962785840034485,
+        "ViT": 0.9807355999946594
+      },
+      "file_size_diff": 1200,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "11.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.2105671726167202,
+      "improved_confidence": 0.7942640118781001,
+      "unanimous_agreement": true,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.23489905893802643,
+        "RegNet-Y-8GF": 0.22587049007415771,
+        "ViT": 0.009637333452701569
+      },
+      "file_size_diff": 576,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "110.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9669867455959319,
+      "improved_confidence": 0.9577547453432289,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9634761214256287,
+        "RegNet-Y-8GF": 0.9912036657333374,
+        "ViT": 0.9431272745132446
+      },
+      "file_size_diff": 1088,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "111.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9950106620788574,
+      "improved_confidence": 0.990791293928768,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.999062716960907,
+        "RegNet-Y-8GF": 0.9927270412445068,
+        "ViT": 0.9712135195732117
+      },
+      "file_size_diff": 1776,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "112.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.7308801174163818,
+      "improved_confidence": 0.7247718229354505,
+      "unanimous_agreement": true,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.6987429261207581,
+        "RegNet-Y-8GF": 0.9054191708564758,
+        "ViT": 0.6067623496055603
+      },
+      "file_size_diff": 512,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "113.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9869082391262054,
+      "improved_confidence": 0.9798457113013894,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9876591563224792,
+        "RegNet-Y-8GF": 0.9887375831604004,
+        "ViT": 0.9779931306838989
+      },
+      "file_size_diff": 1472,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "114.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.3003525070846081,
+      "improved_confidence": 0.5585457097304699,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 1,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.2539461553096771,
+        "RegNet-Y-8GF": 0.575631856918335,
+        "ViT": 0.07463826984167099
+      },
+      "file_size_diff": 320,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "115.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.48186749815940855,
+      "improved_confidence": 0.4573746741389862,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 2,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.5186467170715332,
+        "RegNet-Y-8GF": 0.5380492806434631,
+        "ViT": 0.112049400806427
+      },
+      "file_size_diff": 0,
+      "ground_truth_method": "alternating"
+    },
+    {
+      "image_name": "116.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.04102005939930677,
+      "improved_confidence": 0.950528099644699,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.04386188089847565,
+        "RegNet-Y-8GF": 0.04006287083029747,
+        "ViT": 0.023041686043143272
+      },
+      "file_size_diff": 512,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "117.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.10598456412553788,
+      "improved_confidence": 0.8982410248500714,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0639372169971466,
+        "RegNet-Y-8GF": 0.21696212887763977,
+        "ViT": 0.17836086452007294
+      },
+      "file_size_diff": 992,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "118.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.012969628960127011,
+      "improved_confidence": 0.9795132199676742,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0008007780998013914,
+        "RegNet-Y-8GF": 0.03425471857190132,
+        "ViT": 0.05558140575885773
+      },
+      "file_size_diff": 1088,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "119.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.09313269779086113,
+      "improved_confidence": 0.9081081038115562,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.06304169446229935,
+        "RegNet-Y-8GF": 0.18588759005069733,
+        "ViT": 0.11825993657112122
+      },
+      "file_size_diff": 800,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "12.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.4770739957690239,
+      "improved_confidence": 0.4690500441115604,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 1,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.4655202627182007,
+        "RegNet-Y-8GF": 0.6315117478370667,
+        "ViT": 0.24907462298870087
+      },
+      "file_size_diff": 192,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "120.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.036889135651290414,
+      "improved_confidence": 0.9406741902415023,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.007855167612433434,
+        "RegNet-Y-8GF": 0.024635734036564827,
+        "ViT": 0.2646337151527405
+      },
+      "file_size_diff": 1216,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "121.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.05792212337255478,
+      "improved_confidence": 0.9281540278269116,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.03969387710094452,
+        "RegNet-Y-8GF": 0.03663501888513565,
+        "ViT": 0.22809405624866486
+      },
+      "file_size_diff": 1296,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "122.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.06984048001468182,
+      "improved_confidence": 0.9148222676614342,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.01918049529194832,
+        "RegNet-Y-8GF": 0.13799500465393066,
+        "ViT": 0.2881513237953186
+      },
+      "file_size_diff": 928,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "123.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9622425496578215,
+      "improved_confidence": 0.9514052505950306,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9878153800964355,
+        "RegNet-Y-8GF": 0.8759655356407166,
+        "ViT": 0.9557867646217346
+      },
+      "file_size_diff": 1472,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "124.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.6219326496124268,
+      "improved_confidence": 0.6540405349441318,
+      "unanimous_agreement": true,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.5708163976669312,
+        "RegNet-Y-8GF": 0.7598317861557007,
+        "ViT": 0.7039481401443481
+      },
+      "file_size_diff": 208,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "125.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9523623704910278,
+      "improved_confidence": 0.9257983495892945,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9911757707595825,
+        "RegNet-Y-8GF": 0.9519248008728027,
+        "ViT": 0.6815437078475952
+      },
+      "file_size_diff": 752,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "126.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.7227147758007049,
+      "improved_confidence": 0.5870527002475207,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 2,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.7228896617889404,
+        "RegNet-Y-8GF": 0.8532059192657471,
+        "ViT": 0.4605082869529724
+      },
+      "file_size_diff": 160,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "127.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.4014115631580353,
+      "improved_confidence": 0.4832221640111941,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 1,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.3398417830467224,
+        "RegNet-Y-8GF": 0.7168539762496948,
+        "ViT": 0.20151519775390625
+      },
+      "file_size_diff": 448,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "128.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.8736920356750488,
+      "improved_confidence": 0.8861464460333102,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.8649740815162659,
+        "RegNet-Y-8GF": 0.9482414722442627,
+        "ViT": 0.7856188416481018
+      },
+      "file_size_diff": 592,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "129.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.03163572605699301,
+      "improved_confidence": 0.9588741699909975,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.01563410647213459,
+        "RegNet-Y-8GF": 0.07021736353635788,
+        "ViT": 0.06648378819227219
+      },
+      "file_size_diff": 928,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "13.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.14894820302724837,
+      "improved_confidence": 0.853150901172526,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.13560809195041656,
+        "RegNet-Y-8GF": 0.20525574684143066,
+        "ViT": 0.12971389293670654
+      },
+      "file_size_diff": 752,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "130.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.09217852987349033,
+      "improved_confidence": 0.9095138658317476,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.08195926249027252,
+        "RegNet-Y-8GF": 0.14948366582393646,
+        "ViT": 0.04910312965512276
+      },
+      "file_size_diff": 1056,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "131.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.872579425573349,
+      "improved_confidence": 0.8646211867632754,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9440707564353943,
+        "RegNet-Y-8GF": 0.780672013759613,
+        "ViT": 0.5559549331665039
+      },
+      "file_size_diff": 752,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "132.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.2103044081479311,
+      "improved_confidence": 0.6394518690531342,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 1,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.12871100008487701,
+        "RegNet-Y-8GF": 0.5702827572822571,
+        "ViT": 0.06150156632065773
+      },
+      "file_size_diff": 992,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "133.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.0014122257392955363,
+      "improved_confidence": 0.9969107318416928,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 1.8711822121986188e-05,
+        "RegNet-Y-8GF": 0.006456037517637014,
+        "ViT": 0.0010791996028274298
+      },
+      "file_size_diff": 1152,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "134.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.0054723994573578245,
+      "improved_confidence": 0.9901775416865961,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0026940808165818453,
+        "RegNet-Y-8GF": 0.014567004516720772,
+        "ViT": 0.006731419824063778
+      },
+      "file_size_diff": 1136,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "135.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.007288137497380376,
+      "improved_confidence": 0.9875518864211605,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.007572122383862734,
+        "RegNet-Y-8GF": 0.007992326281964779,
+        "ViT": 0.003891865722835064
+      },
+      "file_size_diff": 1248,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "136.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.03766488581895828,
+      "improved_confidence": 0.9534476660334994,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.03932708874344826,
+        "RegNet-Y-8GF": 0.046054910868406296,
+        "ViT": 0.009249415248632431
+      },
+      "file_size_diff": 560,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "137.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.013297613605391235,
+      "improved_confidence": 0.9795720294574002,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.014745085500180721,
+        "RegNet-Y-8GF": 0.014369815587997437,
+        "ViT": 0.0010209063766524196
+      },
+      "file_size_diff": 1328,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "138.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.022412422858309924,
+      "improved_confidence": 0.9667226045082642,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 1.87580325079241e-13,
+        "RegNet-Y-8GF": 0.10694340616464615,
+        "ViT": 0.010237416252493858
+      },
+      "file_size_diff": 1664,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "139.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.0027868213423062117,
+      "improved_confidence": 0.9944508818137081,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.000245203438680619,
+        "RegNet-Y-8GF": 0.008871388621628284,
+        "ViT": 0.008409012109041214
+      },
+      "file_size_diff": 2192,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "14.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.12472638115286827,
+      "improved_confidence": 0.871719117217211,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.056700147688388824,
+        "RegNet-Y-8GF": 0.3744523227214813,
+        "ViT": 0.10145813226699829
+      },
+      "file_size_diff": 432,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "140.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.6117482304573059,
+      "improved_confidence": 0.6490028287556129,
+      "unanimous_agreement": true,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.5662388205528259,
+        "RegNet-Y-8GF": 0.7383967041969299,
+        "ViT": 0.6770171523094177
+      },
+      "file_size_diff": 576,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "141.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.7509624928236007,
+      "improved_confidence": 0.615034284603554,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 2,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.7911367416381836,
+        "RegNet-Y-8GF": 0.750943124294281,
+        "ViT": 0.4697814881801605
+      },
+      "file_size_diff": 944,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "142.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9480995833873749,
+      "improved_confidence": 0.9372235608615354,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9854729771614075,
+        "RegNet-Y-8GF": 0.8710999488830566,
+        "ViT": 0.8404850959777832
+      },
+      "file_size_diff": 880,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "143.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.7735813736915588,
+      "improved_confidence": 0.6192865221711643,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 2,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.8075975775718689,
+        "RegNet-Y-8GF": 0.83937668800354,
+        "ViT": 0.403877317905426
+      },
+      "file_size_diff": 544,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "144.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.41274731457233427,
+      "improved_confidence": 0.5131545623577868,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 2,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.3457256853580475,
+        "RegNet-Y-8GF": 0.5737298130989075,
+        "ViT": 0.5599337220191956
+      },
+      "file_size_diff": 480,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "145.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.08404499366879463,
+      "improved_confidence": 0.9095604432438975,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.06482579559087753,
+        "RegNet-Y-8GF": 0.06979947537183762,
+        "ViT": 0.24707041680812836
+      },
+      "file_size_diff": 0,
+      "ground_truth_method": "alternating"
+    },
+    {
+      "image_name": "146.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.4512928456068039,
+      "improved_confidence": 0.4995481691162942,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 1,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.4104171395301819,
+        "RegNet-Y-8GF": 0.5801783204078674,
+        "ViT": 0.4796518385410309
+      },
+      "file_size_diff": 128,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "147.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.08044046349823475,
+      "improved_confidence": 0.9178516387961597,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.10254530608654022,
+        "RegNet-Y-8GF": 0.011201107874512672,
+        "ViT": 0.06418527662754059
+      },
+      "file_size_diff": 432,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "148.png",
+      "true_class": "positive",
+      "model_class": "negative",
+      "class_correct": false,
+      "model_probability": 0.4044352948665619,
+      "improved_confidence": 0.4807313247091982,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 1,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.36625105142593384,
+        "RegNet-Y-8GF": 0.6770666241645813,
+        "ViT": 0.12646234035491943
+      },
+      "file_size_diff": 1280,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "149.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.031204254925251005,
+      "improved_confidence": 0.9583914406604699,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.02861817739903927,
+        "RegNet-Y-8GF": 0.00666166003793478,
+        "ViT": 0.09839198738336563
+      },
+      "file_size_diff": 1088,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "15.png",
+      "true_class": "negative",
+      "model_class": "positive",
+      "class_correct": false,
+      "model_probability": 0.7298532426357269,
+      "improved_confidence": 0.729729344171313,
+      "unanimous_agreement": true,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.6629573702812195,
+        "RegNet-Y-8GF": 0.8908711075782776,
+        "ViT": 0.8760886192321777
+      },
+      "file_size_diff": 336,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "150.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.09327895063906907,
+      "improved_confidence": 0.9070030357059689,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.107038214802742,
+        "RegNet-Y-8GF": 0.013386026956140995,
+        "ViT": 0.15674994885921478
+      },
+      "file_size_diff": 400,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "151.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.28007070273160933,
+      "improved_confidence": 0.5946794771998642,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 1,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.21634502708911896,
+        "RegNet-Y-8GF": 0.37821581959724426,
+        "ViT": 0.5298601984977722
+      },
+      "file_size_diff": 672,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "152.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.49045147001743317,
+      "improved_confidence": 0.4400686910169998,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 2,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.3575633466243744,
+        "RegNet-Y-8GF": 0.7967404723167419,
+        "ViT": 0.808090329170227
+      },
+      "file_size_diff": 736,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "153.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.011051236558705569,
+      "improved_confidence": 0.9824348613243314,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.00982722919434309,
+        "RegNet-Y-8GF": 0.018185008317232132,
+        "ViT": 0.005351744592189789
+      },
+      "file_size_diff": 672,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "154.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.011561176180839539,
+      "improved_confidence": 0.981801103617252,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.011593137867748737,
+        "RegNet-Y-8GF": 0.013116758316755295,
+        "ViT": 0.008226280100643635
+      },
+      "file_size_diff": 624,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "155.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.009494090266525746,
+      "improved_confidence": 0.9845105554831641,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.00882918480783701,
+        "RegNet-Y-8GF": 0.012873288244009018,
+        "ViT": 0.007390032522380352
+      },
+      "file_size_diff": 704,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "156.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.030668608658015725,
+      "improved_confidence": 0.9604273934658853,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.03157873451709747,
+        "RegNet-Y-8GF": 0.03224483132362366,
+        "ViT": 0.021145282313227654
+      },
+      "file_size_diff": 528,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "157.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.44465280175209043,
+      "improved_confidence": 0.46082359295723835,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 1,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.45252957940101624,
+        "RegNet-Y-8GF": 0.6218721866607666,
+        "ViT": 0.03507658839225769
+      },
+      "file_size_diff": 48,
+      "ground_truth_method": "alternating"
+    },
+    {
+      "image_name": "158.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.7416560232639312,
+      "improved_confidence": 0.5876627890605168,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 2,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.7480838298797607,
+        "RegNet-Y-8GF": 0.8960209488868713,
+        "ViT": 0.3879315257072449
+      },
+      "file_size_diff": 368,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "159.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.6332632958889007,
+      "improved_confidence": 0.47784476723512237,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 2,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.6504735946655273,
+        "RegNet-Y-8GF": 0.8028268814086914,
+        "ViT": 0.17366403341293335
+      },
+      "file_size_diff": 512,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "16.png",
+      "true_class": "negative",
+      "model_class": "positive",
+      "class_correct": false,
+      "model_probability": 0.5416297435760498,
+      "improved_confidence": 0.48483433147267285,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 2,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.45366936922073364,
+        "RegNet-Y-8GF": 0.7493357062339783,
+        "ViT": 0.741940438747406
+      },
+      "file_size_diff": 144,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "160.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9095420122146606,
+      "improved_confidence": 0.9029544293235374,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9322308897972107,
+        "RegNet-Y-8GF": 0.9238947629928589,
+        "ViT": 0.7220143675804138
+      },
+      "file_size_diff": 1344,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "161.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.011293825460597873,
+      "improved_confidence": 0.9819262469212207,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.00451849028468132,
+        "RegNet-Y-8GF": 0.03726942837238312,
+        "ViT": 0.006769965868443251
+      },
+      "file_size_diff": 1920,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "162.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9162827849388123,
+      "improved_confidence": 0.8943869994444784,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9531056880950928,
+        "RegNet-Y-8GF": 0.9331439137458801,
+        "ViT": 0.6248002052307129
+      },
+      "file_size_diff": 928,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "163.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9223126292228698,
+      "improved_confidence": 0.9172606738218385,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.9339853525161743,
+        "RegNet-Y-8GF": 0.9405335187911987,
+        "ViT": 0.804161787033081
+      },
+      "file_size_diff": 656,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "164.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.00028300491394475105,
+      "improved_confidence": 0.9992509663621276,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0,
+        "RegNet-Y-8GF": 0.0008261091425083578,
+        "ViT": 0.0011778308544307947
+      },
+      "file_size_diff": 1856,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "165.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.09916436332277953,
+      "improved_confidence": 0.9038573387285829,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.10699500888586044,
+        "RegNet-Y-8GF": 0.12090927362442017,
+        "ViT": 0.0008600237779319286
+      },
+      "file_size_diff": 208,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "166.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.02446084370894823,
+      "improved_confidence": 0.9666065711981116,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.033990975469350815,
+        "RegNet-Y-8GF": 0.003228025743737817,
+        "ViT": 0.00021555731655098498
+      },
+      "file_size_diff": 416,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "167.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.0006858635344546238,
+      "improved_confidence": 0.9983587219705579,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 5.249405693082945e-16,
+        "RegNet-Y-8GF": 0.0031091326382011175,
+        "ViT": 0.0006403700681403279
+      },
+      "file_size_diff": 1200,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "168.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.0073001660188310785,
+      "improved_confidence": 0.9873132550571231,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0011278473539277911,
+        "RegNet-Y-8GF": 0.032462261617183685,
+        "ViT": 0.0001822054764488712
+      },
+      "file_size_diff": 912,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "169.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.018710562243359166,
+      "improved_confidence": 0.9720689379231942,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0056234002113342285,
+        "RegNet-Y-8GF": 0.07351019233465195,
+        "ViT": 0.0007214362849481404
+      },
+      "file_size_diff": 1888,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "17.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.0498684111982584,
+      "improved_confidence": 0.9403647180585506,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.02916136011481285,
+        "RegNet-Y-8GF": 0.07261743396520615,
+        "ViT": 0.14931972324848175
+      },
+      "file_size_diff": 656,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "170.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.15424403473734855,
+      "improved_confidence": 0.8453362243667308,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": false,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.1176677867770195,
+        "RegNet-Y-8GF": 0.32318270206451416,
+        "ViT": 0.07240043580532074
+      },
+      "file_size_diff": 1984,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "171.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.3459433227777481,
+      "improved_confidence": 0.5296939332237693,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 1,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.26117265224456787,
+        "RegNet-Y-8GF": 0.6714455485343933,
+        "ViT": 0.28833356499671936
+      },
+      "file_size_diff": 992,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "172.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.008704546589238004,
+      "improved_confidence": 0.9852574107158538,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 4.499380867883929e-09,
+        "RegNet-Y-8GF": 0.040800318121910095,
+        "ViT": 0.005444798152893782
+      },
+      "file_size_diff": 2944,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "173.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.16705804653465747,
+      "improved_confidence": 0.6827791930792333,
+      "unanimous_agreement": false,
+      "strong_prediction": true,
+      "high_confidence": false,
+      "agreement_count": 1,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.03926096484065056,
+        "RegNet-Y-8GF": 0.6379412412643433,
+        "ViT": 0.11987122893333435
+      },
+      "file_size_diff": 1440,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "174.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.21134874895215036,
+      "improved_confidence": 0.625604389884348,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 1,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.10121365636587143,
+        "RegNet-Y-8GF": 0.6623947024345398,
+        "ViT": 0.08020249009132385
+      },
+      "file_size_diff": 848,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "175.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.01945412178756669,
+      "improved_confidence": 0.9705261508540486,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0017627209890633821,
+        "RegNet-Y-8GF": 0.09099803864955902,
+        "ViT": 0.00020609365310519934
+      },
+      "file_size_diff": 2288,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "176.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.00619617709890008,
+      "improved_confidence": 0.9891257469014547,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.006863520946353674,
+        "RegNet-Y-8GF": 0.00557201961055398,
+        "ViT": 0.00277308514341712
+      },
+      "file_size_diff": 1968,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "177.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.19968549944460393,
+      "improved_confidence": 0.67803889133909,
+      "unanimous_agreement": false,
+      "strong_prediction": true,
+      "high_confidence": false,
+      "agreement_count": 2,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.04389118775725365,
+        "RegNet-Y-8GF": 0.5546290278434753,
+        "ViT": 0.580358624458313
+      },
+      "file_size_diff": 960,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "178.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.4354152888059616,
+      "improved_confidence": 0.49547990682869036,
+      "unanimous_agreement": false,
+      "strong_prediction": false,
+      "high_confidence": false,
+      "agreement_count": 1,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.4270574748516083,
+        "RegNet-Y-8GF": 0.35481172800064087,
+        "ViT": 0.6551271080970764
+      },
+      "file_size_diff": 1088,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "179.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.11001526564359665,
+      "improved_confidence": 0.889063596443004,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.042677104473114014,
+        "RegNet-Y-8GF": 0.292916476726532,
+        "ViT": 0.21557997167110443
+      },
+      "file_size_diff": 1904,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "18.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.8351993054151534,
+      "improved_confidence": 0.6575610374997619,
+      "unanimous_agreement": false,
+      "strong_prediction": true,
+      "high_confidence": false,
+      "agreement_count": 2,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.8835304975509644,
+        "RegNet-Y-8GF": 0.9339867830276489,
+        "ViT": 0.2993060052394867
+      },
+      "file_size_diff": 800,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "180.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.05529903257265687,
+      "improved_confidence": 0.9247834279293348,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.013180791400372982,
+        "RegNet-Y-8GF": 0.08630640059709549,
+        "ViT": 0.28811198472976685
+      },
+      "file_size_diff": 1072,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "181.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.1440819174051285,
+      "improved_confidence": 0.8735174364008313,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.18480561673641205,
+        "RegNet-Y-8GF": 0.030825667083263397,
+        "ViT": 0.08552852272987366
+      },
+      "file_size_diff": 1280,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "182.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.021529754059156404,
+      "improved_confidence": 0.9696644816208011,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.017741383984684944,
+        "RegNet-Y-8GF": 0.04543882980942726,
+        "ViT": 0.00023019307991489768
+      },
+      "file_size_diff": 2384,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "183.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.011249749387206975,
+      "improved_confidence": 0.9815202726206766,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.00012815388618037105,
+        "RegNet-Y-8GF": 0.055712033063173294,
+        "ViT": 0.00017635054246056825
+      },
+      "file_size_diff": 1984,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "184.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.024228799380944112,
+      "improved_confidence": 0.9651930265836581,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.007194972597062588,
+        "RegNet-Y-8GF": 0.09583628922700882,
+        "ViT": 0.0002506071759853512
+      },
+      "file_size_diff": 1872,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "185.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.015657249098876492,
+      "improved_confidence": 0.9755966722537608,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.0015750718303024769,
+        "RegNet-Y-8GF": 0.07261624932289124,
+        "ViT": 0.000314489530865103
+      },
+      "file_size_diff": 3040,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "186.png",
+      "true_class": "positive",
+      "model_class": "positive",
+      "class_correct": true,
+      "model_probability": 0.9850856125354767,
+      "improved_confidence": 0.9771283378286524,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 3,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.991405725479126,
+        "RegNet-Y-8GF": 0.9850264191627502,
+        "ViT": 0.9409632086753845
+      },
+      "file_size_diff": 1056,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "187.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.058494565654837065,
+      "improved_confidence": 0.9245586854736232,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.01719852164387703,
+        "RegNet-Y-8GF": 0.23221054673194885,
+        "ViT": 0.0001349115773336962
+      },
+      "file_size_diff": 1520,
+      "ground_truth_method": "file_size"
+    },
+    {
+      "image_name": "188.png",
+      "true_class": "negative",
+      "model_class": "negative",
+      "class_correct": true,
+      "model_probability": 0.07242882982827722,
+      "improved_confidence": 0.9226347011785279,
+      "unanimous_agreement": true,
+      "strong_prediction": true,
+      "high_confidence": true,
+      "agreement_count": 0,
+      "total_models": 3,
+      "individual_probabilities": {
+        "EfficientNet-B2": 0.06752735376358032,
+        "RegNet-Y-8GF": 0.123680979013443,
+        "ViT": 0.0042348639108240604
+      },
+      "file_size_diff": 976,
+      "ground_truth_method": "file_size"
+    }
+  ]
+}

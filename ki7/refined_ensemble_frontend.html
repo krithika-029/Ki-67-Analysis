@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refined Ki-67 Ensemble - Frontend Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">Refined 95%+ Ki-67 Ensemble</h1>
+            <p class="text-xl text-gray-600">TOP 3 performers achieving 98.0% high-confidence accuracy</p>
+            <div id="status" class="mt-4 px-4 py-2 rounded-full inline-block">
+                <span class="text-sm font-medium">Connecting...</span>
+            </div>
+        </div>
+
+        <!-- Performance Metrics -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                <div class="text-3xl font-bold text-purple-600 mb-2" id="high-conf-accuracy">--</div>
+                <div class="text-sm text-gray-600">High-Confidence Accuracy</div>
+                <div class="text-xs text-gray-500 mt-1">Target: 95%+</div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                <div class="text-3xl font-bold text-blue-600 mb-2" id="coverage">--</div>
+                <div class="text-sm text-gray-600">Coverage</div>
+                <div class="text-xs text-gray-500 mt-1">Samples with high confidence</div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                <div class="text-3xl font-bold text-green-600 mb-2" id="standard-accuracy">--</div>
+                <div class="text-sm text-gray-600">Standard Accuracy</div>
+                <div class="text-xs text-gray-500 mt-1">All samples</div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                <div class="text-3xl font-bold text-orange-600 mb-2" id="auc">--</div>
+                <div class="text-sm text-gray-600">AUC Score</div>
+                <div class="text-xs text-gray-500 mt-1">Model performance</div>
+            </div>
+        </div>
+
+        <!-- Model Information -->
+        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">Model Configuration</h2>
+            <div id="models-info" class="space-y-4">
+                <!-- Models will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Test Prediction Section -->
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">Test Prediction</h2>
+            
+            <div class="mb-4">
+                <label for="image-upload" class="block text-sm font-medium text-gray-700 mb-2">
+                    Upload Ki-67 Image
+                </label>
+                <input type="file" id="image-upload" accept="image/*" 
+                       class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100">
+            </div>
+            
+            <button id="predict-btn" onclick="makePrediction()" 
+                    class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50"
+                    disabled>
+                Make Prediction
+            </button>
+            
+            <div id="prediction-result" class="mt-6 hidden">
+                <!-- Prediction results will appear here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:5002/api';
+        
+        // Load ensemble information on page load
+        async function loadEnsembleInfo() {
+            try {
+                // Check health
+                const healthResponse = await fetch(`${API_BASE}/health`);
+                const healthData = await healthResponse.json();
+                
+                // Update status
+                const statusDiv = document.getElementById('status');
+                if (healthData.status === 'healthy') {
+                    statusDiv.className = 'mt-4 px-4 py-2 rounded-full inline-block bg-green-100 text-green-800';
+                    statusDiv.innerHTML = '<span class="text-sm font-medium">✅ System Operational</span>';
+                } else {
+                    statusDiv.className = 'mt-4 px-4 py-2 rounded-full inline-block bg-red-100 text-red-800';
+                    statusDiv.innerHTML = '<span class="text-sm font-medium">❌ System Error</span>';
+                }
+                
+                // Update metrics
+                document.getElementById('high-conf-accuracy').textContent = `${healthData.high_confidence_accuracy}%`;
+                document.getElementById('coverage').textContent = `${healthData.coverage}%`;
+                document.getElementById('standard-accuracy').textContent = `${healthData.standard_accuracy}%`;
+                document.getElementById('auc').textContent = healthData.auc;
+                
+                // Load ensemble details
+                const ensembleResponse = await fetch(`${API_BASE}/ensemble/info`);
+                const ensembleData = await ensembleResponse.json();
+                
+                // Display model information
+                const modelsDiv = document.getElementById('models-info');
+                modelsDiv.innerHTML = ensembleData.models.map(model => `
+                    <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                        <div>
+                            <div class="font-semibold text-lg">${model.name}</div>
+                            <div class="text-sm text-gray-600">${model.architecture}</div>
+                            <div class="text-xs text-gray-500">${model.role}</div>
+                        </div>
+                        <div class="text-right">
+                            <div class="text-lg font-bold text-blue-600">Weight: ${model.weight}</div>
+                            <div class="text-sm text-gray-600">Accuracy: ${model.individual_accuracy}%</div>
+                            <div class="text-xs ${model.status === 'loaded' ? 'text-green-600' : 'text-red-600'}">
+                                ${model.status === 'loaded' ? '✅ Loaded' : '❌ Error'}
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+                
+            } catch (error) {
+                console.error('Error loading ensemble info:', error);
+                document.getElementById('status').innerHTML = 
+                    '<span class="text-sm font-medium text-red-600">❌ Connection Failed</span>';
+            }
+        }
+        
+        // Handle file upload
+        document.getElementById('image-upload').addEventListener('change', function(e) {
+            const predictBtn = document.getElementById('predict-btn');
+            predictBtn.disabled = !e.target.files.length;
+        });
+        
+        // Make prediction
+        async function makePrediction() {
+            const fileInput = document.getElementById('image-upload');
+            const resultDiv = document.getElementById('prediction-result');
+            
+            if (!fileInput.files.length) {
+                alert('Please select an image first');
+                return;
+            }
+            
+            const formData = new FormData();
+            formData.append('image', fileInput.files[0]);
+            
+            try {
+                resultDiv.innerHTML = '<div class="text-center py-4">🔄 Processing...</div>';
+                resultDiv.classList.remove('hidden');
+                
+                const response = await fetch(`${API_BASE}/predict`, {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const result = await response.json();
+                
+                // Display result
+                resultDiv.innerHTML = `
+                    <div class="border rounded-lg p-4">
+                        <h3 class="text-lg font-bold mb-4">Prediction Result</h3>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                            <div class="text-center">
+                                <div class="text-2xl font-bold ${result.prediction_label === 'Positive' ? 'text-red-600' : 'text-green-600'}">
+                                    ${result.prediction_label}
+                                </div>
+                                <div class="text-sm text-gray-600">Ki-67 Classification</div>
+                            </div>
+                            
+                            <div class="text-center">
+                                <div class="text-2xl font-bold ${result.high_confidence ? 'text-green-600' : 'text-orange-600'}">
+                                    ${(result.confidence * 100).toFixed(1)}%
+                                </div>
+                                <div class="text-sm text-gray-600">
+                                    ${result.high_confidence ? 'High Confidence' : 'Standard Confidence'}
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="text-sm text-gray-600 mb-2">
+                            <strong>Expected Accuracy:</strong> ${result.expected_accuracy}%
+                            (${result.high_confidence ? 'High-confidence range' : 'Standard range'})
+                        </div>
+                        
+                        <div class="text-xs text-gray-500">
+                            <strong>Probability:</strong> ${(result.probability * 100).toFixed(1)}%
+                        </div>
+                    </div>
+                `;
+                
+            } catch (error) {
+                console.error('Prediction error:', error);
+                resultDiv.innerHTML = '<div class="text-red-600 text-center py-4">❌ Prediction failed</div>';
+            }
+        }
+        
+        // Load data when page loads
+        document.addEventListener('DOMContentLoaded', loadEnsembleInfo);
+    </script>
+</body>
+</html>
